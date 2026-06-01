@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./sections/Header";
 import Footer from "./sections/Footer";
 import CookieBanner from "./components/CookieBanner";
 
-const spaceGrotesk = Space_Grotesk({
+const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-space-grotesk",
+  variable: "--font-nunito",
 });
 
 export const metadata: Metadata = {
@@ -44,8 +44,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={spaceGrotesk.variable}>
-      <body className={`${spaceGrotesk.className} min-h-screen antialiased`}>
+    <html lang="en" className={nunito.variable}>
+      <body className={`${nunito.className} min-h-screen antialiased`}>
         {/* Background Effects */}
         <div className="aurora-bg" />
         <div className="grid-pattern" />
