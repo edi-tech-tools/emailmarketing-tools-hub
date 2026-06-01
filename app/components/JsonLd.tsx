@@ -9,7 +9,7 @@ interface JsonLdProps {
 
 export default function JsonLd({
   siteName = 'Email Marketing Tools Hub',
-  siteUrl = 'https://b2b-saas-tool-hub.com',
+  siteUrl = 'https://emailcompare.net',
   description = 'Comprehensive email marketing directory and tool hub for modern enterprises.',
 }: JsonLdProps) {
   useEffect(() => {

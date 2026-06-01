@@ -66,7 +66,7 @@ export default function ToolDetailPage() {
 
     const org = organizationSchema(
       'Email Marketing Tools Hub',
-      'https://b2b-saas-tool-hub.com',
+      'https://emailcompare.net',
       'Comprehensive email marketing directory and tool hub for modern enterprises.'
     );
     const s2 = document.createElement('script');

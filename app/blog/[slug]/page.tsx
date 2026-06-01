@@ -180,7 +180,7 @@ export default async function BlogPostPage({
   );
   const orgJsonLd = organizationSchema(
     'Email Marketing Tools Hub',
-    'https://b2b-saas-tool-hub.com',
+    'https://emailcompare.net',
     'Comprehensive email marketing directory and tool hub for modern enterprises.'
   );
 

@@ -195,8 +195,8 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">14. Contact Information</h2>
             <div className="mt-4 p-5 bg-[#2D0F0F] border border-[#5F1E1E] rounded-xl">
-              <p className="mb-2"><strong className="text-[#FEF2F0]">Email:</strong> legal@b2b-software.net</p>
-              <p className="mb-2"><strong className="text-[#FEF2F0]">Support:</strong> support@b2b-software.net</p>
+              <p className="mb-2"><strong className="text-[#FEF2F0]">Email:</strong> legal@emailcompare.net</p>
+              <p className="mb-2"><strong className="text-[#FEF2F0]">Support:</strong> support@emailcompare.net</p>
               <p><strong className="text-[#FEF2F0]">Address:</strong> 548 Market Street, Suite 19530, San Francisco, CA 94104</p>
             </div>
           </section>
