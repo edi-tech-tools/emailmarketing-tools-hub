@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Sparkles, Search } from 'lucide-react';
+import { Menu, X, Send, Search } from 'lucide-react';
 import Link from 'next/link';
 
 const NAV_ITEMS = [
@@ -37,7 +37,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#E63946] to-[#FF6B6B] flex items-center justify-center">
-            <Sparkles className="w-4 h-4 text-white" />
+            <Send className="w-4 h-4 text-white" />
           </div>
           <span className="text-lg font-bold text-[#FEF2F0] group-hover:text-[#E63946] transition-colors">
             Email Marketing Hub
