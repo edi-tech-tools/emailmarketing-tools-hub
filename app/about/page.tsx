@@ -148,10 +148,10 @@ export default function AboutPage() {
               Contact Us
             </Link>
             <a
-              href="mailto:longfeixiang7650@gmail.com"
+              href="mailto:info@emailcompare.net"
               className="px-6 py-3 border border-[#5F1E1E] hover:border-[#802828] text-[#BE8A83] hover:text-[#FEF2F0] font-medium rounded-lg transition-all"
             >
-              longfeixiang7650@gmail.com
+              info@emailcompare.net
             </a>
           </div>
         </div>
