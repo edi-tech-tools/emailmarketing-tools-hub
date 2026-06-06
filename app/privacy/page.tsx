@@ -214,7 +214,7 @@ export default function PrivacyPage() {
             <div className="mt-4 p-5 bg-[#2D0F0F] border border-[#5F1E1E] rounded-xl">
               <p className="mb-2"><strong className="text-[#FEF2F0]">Email:</strong> privacy@emailcompare.net</p>
               <p className="mb-2"><strong className="text-[#FEF2F0]">Support:</strong> support@emailcompare.net</p>
-              <p><strong className="text-[#FEF2F0]">Address:</strong> 548 Market Street, Suite 19530, San Francisco, CA 94104</p>
+              <p><strong className="text-[#FEF2F0]">Address:</strong> 1209 Orange Street, Suite 500, Wilmington, DE 19801</p>
             </div>
           </section>
         </div>

@@ -168,9 +168,9 @@ export default function ContactPage() {
                 Office
               </h3>
               <p className="text-sm text-[#BE8A83] leading-relaxed">
-                548 Market Street, Suite 19530
+                1209 Orange Street, Suite 500
                 <br />
-                San Francisco, CA 94104
+                Wilmington, DE 19801
                 <br />
                 United States
               </p>
