@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 const CATEGORIES = Array.from(new Set(BLOG_POSTS.map((post) => post.category)));
 
 export default function BlogPage() {
-  // Sort by date, newest first
   const sortedPosts = [...BLOG_POSTS].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
@@ -20,7 +19,6 @@ export default function BlogPage() {
   return (
     <div className="relative pt-32 pb-20 px-6">
       <div className="max-w-[1200px] mx-auto">
-        {/* Hero */}
         <div className="text-center mb-12">
           <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#E63946] bg-[#401616] px-3 py-1.5 rounded-md mb-4">
             Blog
@@ -35,7 +33,6 @@ export default function BlogPage() {
           </p>
         </div>
 
-        {/* Category Pills */}
         <div className="flex flex-wrap justify-center gap-2 mb-12">
           {["All", ...CATEGORIES].map((cat) => (
             <a
@@ -48,7 +45,6 @@ export default function BlogPage() {
           ))}
         </div>
 
-        {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sortedPosts.map((post) => (
             <Link
@@ -57,7 +53,6 @@ export default function BlogPage() {
               className="group"
             >
               <article className="bg-[#2D0F0F] border border-[#5F1E1E] rounded-xl p-6 card-hover h-full flex flex-col">
-                {/* Category Badge */}
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-xs font-semibold uppercase tracking-wider text-[#E63946] bg-[#401616] px-2.5 py-1 rounded-md">
                     {post.category}
@@ -68,17 +63,14 @@ export default function BlogPage() {
                   </div>
                 </div>
 
-                {/* Title */}
                 <h2 className="text-lg font-bold text-[#FEF2F0] mb-3 group-hover:text-[#E63946] transition-colors leading-snug">
                   {post.title}
                 </h2>
 
-                {/* Excerpt */}
                 <p className="text-sm text-[#BE8A83] mb-4 leading-relaxed flex-grow line-clamp-3">
                   {post.excerpt}
                 </p>
 
-                {/* Tags */}
                 <div className="flex flex-wrap gap-1.5 mb-4">
                   {post.tags.slice(0, 3).map((tag) => (
                     <span
@@ -90,7 +82,6 @@ export default function BlogPage() {
                   ))}
                 </div>
 
-                {/* Meta */}
                 <div className="flex items-center justify-between pt-4 border-t border-[#5F1E1E]">
                   <div className="flex items-center gap-2 text-xs text-[#80504A]">
                     <User className="w-3.5 h-3.5" />
