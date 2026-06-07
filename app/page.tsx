@@ -95,10 +95,10 @@ export default function HomePage() {
   }, [searchQuery, ALL_TOOLS]);
 
   return (
-    <div className="min-h-screen bg-[#0A0E1A]">
+    <div className="min-h-screen bg-[#0F1525]">
       {/* ======== HERO 区 ======== */}
       <section className="relative pt-32 pb-16 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0E1A] via-[#0F1525] to-[#0A0E1A]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0F1525] via-[#0F1525] to-[#0F1525]" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] rounded-full opacity-[0.08] blur-[100px]"
           style={{ background: `radial-gradient(circle, ${ACCENT_COLOR}, transparent)` }} />
         <div className="relative max-w-6xl mx-auto text-center">
