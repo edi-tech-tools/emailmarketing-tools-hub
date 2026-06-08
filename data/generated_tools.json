@@ -1,0 +1,170 @@
+{
+  "braze": {
+    "longDescription": "Braze is an enterprise-grade customer engagement platform that powers real-time, cross-channel marketing at scale. Unlike traditional email marketing tools, Braze connects email, push notifications, in-app messages, SMS, and webhooks into a unified orchestration layer. Its strength lies in its data streaming architecture \u2014 Braze ingests customer events in real time and triggers personalized messages within milliseconds. The platform's AI engine, called Sage AI by Braze, analyzes user behavior to predict churn, recommend products, and optimize send times. Braze excels in high-volume, high-frequency use cases where latency and personalization matter. For brands like Grubhub, Urban Outfitters, and Disney, Braze handles billions of monthly messages with sub-second decisioning. The platform offers deep SDK integrations for mobile and web apps, making it a favorite among digital-native companies that need sophisticated lifecycle marketing.",
+    "description": "Real-time, AI-powered cross-channel customer engagement platform for enterprises.",
+    "pros": [
+      "Real-time event ingestion enables instant triggered messaging across channels",
+      "Sage AI predictive engine for churn prediction, product recommendations, and send time optimization",
+      "Unified cross-channel orchestration across email, push, SMS, in-app, and webhooks",
+      "Deep SDK and API integrations for mobile and web applications",
+      "Enterprise-grade scalability handling billions of monthly messages"
+    ],
+    "cons": [
+      "Significant implementation and onboarding effort required",
+      "Premium pricing makes it inaccessible for small and mid-sized businesses",
+      "Steep learning curve with complex campaign setup and configuration"
+    ],
+    "features": [
+      "Real-time event ingestion and streaming data processing",
+      "Sage AI predictive analytics for churn, recommendations, and send time optimization",
+      "Cross-channel orchestration (email, push, SMS, in-app, webhook)",
+      "Visual multi-step journey builder with branching logic",
+      "Dynamic content personalization using liquid templating and connected content",
+      "A/B and multivariate testing for subject lines, content, and channels",
+      "Deliverability monitoring with sender score tracking and ISP feedback loops",
+      "Audience segmentation with real-time attribute and event-based filters",
+      "SDK integrations for iOS, Android, React Native, and web",
+      "Campaign reporting and analytics with attribution and revenue tracking"
+    ],
+    "useCase": "Large digital brands and enterprises needing real-time, cross-channel personalization at massive scale. Best for mobile-first companies, media platforms, and e-commerce brands with high message volumes.",
+    "rating": 4.7,
+    "reviewCount": 4800,
+    "pricing": "Custom pricing",
+    "pricingDetail": "Custom enterprise pricing based on monthly active users and channel usage. Typically starts around $150,000/year for foundational plans. Includes onboarding, dedicated support, and SLA guarantees.",
+    "alternatives": [
+      "iterable",
+      "moengage",
+      "clevertap"
+    ],
+    "scoreBreakdown": {
+      "features": 95.0,
+      "reviews": 87.0,
+      "momentum": 82.0,
+      "popularity": 91.0
+    },
+    "userQuotes": [
+      {
+        "role": "VP of Marketing",
+        "company": "DigitalRetailCo",
+        "quote": "Braze completely transformed how we engage users. The real-time triggers let us respond to customer actions within seconds, and we've seen a 42% lift in re-engagement campaign performance since migrating."
+      },
+      {
+        "role": "Growth Engineering Lead",
+        "company": "FinTechApp",
+        "quote": "The SDK integration was straightforward and the API-first approach made it easy to build custom workflows. Braze handles 50 million monthly pushes for us without a hitch."
+      }
+    ]
+  },
+  "customer-io": {
+    "longDescription": "Customer.io is a developer-friendly, behavior-triggered messaging platform built for SaaS and product-led growth teams. Its core differentiator is event-driven automation: instead of relying on list-based email sends, Customer.io listens to user actions (signups, feature usage, purchases, inactivity) and triggers highly relevant messages in real time. The platform's data pipeline ingests events from your product via API or SDK, building rich user profiles that power segmentation and personalization. Customer.io supports email, push notifications, SMS, and webhooks \u2014 all orchestrated through a visual workflow builder. The platform is particularly strong in onboarding sequences, feature adoption campaigns, and lifecycle marketing. Its API-first architecture makes it a natural fit for engineering teams that want to embed messaging directly into their product experience without fighting against rigid templates.",
+    "description": "Developer-friendly, event-triggered messaging platform for SaaS growth teams.",
+    "pros": [
+      "Event-driven architecture with real-time behavioral triggers based on product usage",
+      "Clean, well-documented API and developer tools for custom integrations",
+      "Visual workflow builder with branching logic, delays, and condition-based paths",
+      "Flexible data model supporting custom attributes, events, and computed traits",
+      "Strong deliverability with dedicated IP pools and automatic bounce handling"
+    ],
+    "cons": [
+      "Limited email template library with fewer design options than competitors",
+      "No built-in landing page builder or form creation tools",
+      "Requires developer involvement for initial setup and data pipeline configuration"
+    ],
+    "features": [
+      "Real-time event ingestion and user profile enrichment via API and SDK",
+      "Visual workflow builder with conditional branching, delays, and A/B branching",
+      "Advanced behavioral segmentation based on recency, frequency, and custom attributes",
+      "Email, push notification, SMS, and webhook channel support",
+      "Liquid template language for dynamic content personalization",
+      "A/B testing for subject lines, content, and send timing",
+      "Deliverability suite with dedicated IPs, DKIM/SPF configuration, and bounce management",
+      "REST API and webhook integrations with major platforms",
+      "Real-time analytics with funnel visualization and campaign performance dashboards",
+      "Team collaboration features with role-based access and approval workflows"
+    ],
+    "useCase": "Growth-focused SaaS and product-led companies that need developer-friendly, event-driven messaging. Ideal for onboarding sequences, feature adoption campaigns, and lifecycle marketing where timing and relevance depend on user behavior.",
+    "rating": 4.4,
+    "reviewCount": 3200,
+    "pricing": "From $100/mo",
+    "pricingDetail": "Starts at $100/mo for up to 2,000 people. Scales based on audience size: Growth ($500/mo for 10,000 people), Premium ($1,500/mo for 50,000 people). Enterprise plans with custom pricing for higher volumes and dedicated support.",
+    "alternatives": [
+      "braze",
+      "iterable",
+      "intercom"
+    ],
+    "scoreBreakdown": {
+      "features": 88.5,
+      "reviews": 84.0,
+      "momentum": 74.0,
+      "popularity": 86.0
+    },
+    "userQuotes": [
+      {
+        "role": "Head of Growth",
+        "company": "SaaSPlatformInc",
+        "quote": "Customer.io changed how we think about lifecycle marketing. The event-driven triggers mean our onboarding emails fire exactly when users hit key milestones. Activation rates jumped 28% in the first quarter."
+      },
+      {
+        "role": "Full-Stack Marketer",
+        "company": "DevToolCo",
+        "quote": "The API is a dream. I can send custom events from our app and build complex workflows without ever touching a CSV upload. It's exactly what a developer-first team needs."
+      }
+    ]
+  },
+  "mautic": {
+    "longDescription": "Mautic is the leading open-source marketing automation platform, offering complete data ownership and unlimited customization. As a self-hosted solution, Mautic gives organizations full control over their customer data, server infrastructure, and feature roadmap. The platform covers the full marketing automation spectrum: lead scoring, email marketing, landing pages, multi-channel campaigns, and contact management. Its plugin architecture extends functionality through community-contributed integrations with CRM platforms, CMS systems, and analytics tools. Mautic is particularly strong in lead management and scoring \u2014 it tracks every touchpoint across web visits, email interactions, and content downloads to build comprehensive lead profiles. While the default user interface is less refined than premium SaaS tools, Mautic's flexibility and zero-cost licensing make it an attractive option for organizations with technical resources and strict data privacy requirements. The platform has a vibrant community with regular releases and an active marketplace of plugins and themes.",
+    "description": "Open-source marketing automation with full data ownership and enterprise-level flexibility.",
+    "pros": [
+      "100% open source with no licensing costs and full data sovereignty",
+      "Extensive plugin ecosystem with CRM, CMS, and analytics integrations",
+      "Comprehensive lead scoring with multi-touch attribution and behavior tracking",
+      "Self-hosted deployment gives control over infrastructure, uptime, and data residency",
+      "Active open-source community with regular feature releases and security patches"
+    ],
+    "cons": [
+      "Requires technical expertise for installation, server maintenance, and customization",
+      "Default UI feels dated compared to modern SaaS marketing automation tools",
+      "Community support varies; enterprise-grade support requires paid subscription"
+    ],
+    "features": [
+      "Lead scoring with multi-criteria rules based on behavior, demographics, and email engagement",
+      "Visual campaign builder with conditional branching, delays, and decision points",
+      "Email marketing with drag-and-drop builder, custom templates, and dynamic content",
+      "Landing page builder with A/B testing and form integration",
+      "Multi-channel campaign orchestration (email, SMS, social, web notifications)",
+      "Contact segmentation with dynamic segments based on real-time behavior",
+      "Marketing calendar for campaign scheduling and content planning",
+      "REST API for custom integrations and webhook automation",
+      "Pre-built CRM integrations with Salesforce, HubSpot, and SugarCRM",
+      "GDPR-compliant data management with consent tracking and data export tools"
+    ],
+    "useCase": "Best for organizations with technical teams that prioritize data ownership, privacy compliance, and cost savings over polished user experience. Ideal for B2B companies, agencies, and privacy-conscious businesses.",
+    "rating": 4.4,
+    "reviewCount": 5200,
+    "pricing": "Free open-source; Cloud from $150/mo",
+    "pricingDetail": "Core platform is free and open-source (GPL-3.0). Mautic Cloud offers hosted plans starting at $150/mo for up to 5,000 contacts. Enterprise cloud plans with dedicated infrastructure, SLA, and premium support available. Self-hosted only incurs server costs.",
+    "alternatives": [
+      "listmonk",
+      "sendfox",
+      "mailercloud"
+    ],
+    "scoreBreakdown": {
+      "features": 88.0,
+      "reviews": 92.0,
+      "momentum": 85.0,
+      "popularity": 93.0
+    },
+    "userQuotes": [
+      {
+        "role": "Marketing Operations Manager",
+        "company": "B2B Tech Corp",
+        "quote": "Moving to Mautic saved us $50K/year in licensing fees. The lead scoring engine is surprisingly sophisticated for an open-source tool, and being able to host on our own infrastructure was critical for GDPR compliance."
+      },
+      {
+        "role": "Digital Marketing Director",
+        "company": "AgencyGrowth",
+        "quote": "We manage campaigns for 20+ clients using a single Mautic instance. The multi-tenant setup works great and the API makes it easy to sync data from our clients' CRMs. The learning curve is real, but the flexibility is unmatched."
+      }
+    ]
+  }
+}
