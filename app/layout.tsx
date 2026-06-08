@@ -1,29 +1,18 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
 import "./globals.css";
-import Header from "./sections/Header";
-import Footer from "./sections/Footer";
-import CookieBanner from "./components/CookieBanner";
-
-const nunito = Nunito({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-nunito",
-});
 
 export const metadata: Metadata = {
-  title: "Email Marketing Tools Hub — Best Email Marketing Software & Tools",
+  metadataBase: new URL("https://emailcompare.net"),
+  title: {
+    default: "Email Compare — Best Email Marketing Tools & Software Reviews",
+    template: "%s — Email Compare",
+  },
   description:
-    "Compare 80+ email marketing tools with verified reviews, pricing breakdowns, and expert comparisons. Find the perfect email marketing software for your business needs. Trusted by marketing professionals worldwide.",
+    "Expert reviews of the best email marketing tools. Compare email marketing software, read in-depth analyses, and build your ideal email stack.",
   keywords: [
-    "email marketing",
-    "email marketing tools",
-    "email marketing software",
-    "email automation",
-    "newsletter tools",
-    "email campaign software",
-    "marketing automation",
-    "CRM email tools",
+    "email marketing", "email marketing tools", "email marketing software",
+    "email automation", "newsletter tools", "email campaign software",
+    "marketing automation", "CRM email tools",
   ],
   verification: {
     google: "T5bb4mZivi0CfaYYRiKZLSNIWmhvAX6_RVgDEyonTGo",
@@ -31,10 +20,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Email Marketing Tools Hub",
-    title: "Email Marketing Tools Hub — Best Email Marketing Software & Tools",
-    description:
-      "Compare 80+ email marketing tools with verified reviews, pricing breakdowns, and expert comparisons.",
+    siteName: "Email Compare",
+    title: "Email Compare — Best Email Marketing Tools & Software Reviews",
+    description: "Expert reviews of the best email marketing tools. Side-by-side comparisons, pricing, and insights.",
   },
 };
 
@@ -44,18 +32,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={nunito.variable}>
-      <body className={`${nunito.className} min-h-screen antialiased`}>
-        <div className="aurora-bg" />
-        <div className="grid-pattern" />
-
-        <Header />
-
-        <main className="relative z-10">{children}</main>
-
-        <Footer />
-
-        <CookieBanner />
+    <html lang="en">
+      <body className="min-h-screen antialiased">
+        {children}
       </body>
     </html>
   );
