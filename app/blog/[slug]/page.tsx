@@ -256,7 +256,7 @@ export default async function BlogPostPage({
                     <p className="font-bold text-[#FEF2F0]">{post.author}</p>
                     <p className="text-sm text-[#BE8A83]">{post.authorRole}</p>
                     <p className="text-xs text-[#80504A] mt-2">
-                      All reviews and comparisons are based on verified data from G2, Capterra, TrustRadius, and other trusted sources.
+                      Emailmarketing-tools-hub independently researches and verifies all product data. Ratings sourced from G2, Capterra, and other trusted review platforms.
                     </p>
                   </div>
                 </div>

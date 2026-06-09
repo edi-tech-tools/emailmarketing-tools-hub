@@ -122,7 +122,7 @@ Start today:
 Because in 2026, *if it's not authenticated, it's not delivered.*
 
 -- *Updated for Google/Yahoo 2026 enforcement deadlines. Verified against RFC 7489, RFC 8301, and M3AAWG guidance.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-01",
     category: "Email Marketing",
@@ -245,7 +245,7 @@ In 2026, email isn't getting harder--it's getting *smarter*. ISPs reward consist
 Because when your email lands in the inbox, everything else becomes possible.
 
 *Need a free deliverability health check? Download our 2026 Email Deliverability Scorecard (includes 12-point audit + custom recommendations) at [yourdomain.com/deliverability-scorecard](https://yourdomain.com/deliverability-scorecard).*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-03",
     category: "Email Marketing",
@@ -365,7 +365,7 @@ It's the difference between being *opened*... and being *ignored*.
 - FTC Guidance on Transactional Emails, Updated March 2023  
 - Klaviyo Behavioral Email Performance Data, 2023  
 - HubSpot State of Marketing Report, 2024`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-05",
     category: "Email Marketing",
@@ -494,7 +494,7 @@ Automation isn't about setting and forgetting. It's about building relationships
 **Ready to launch? Your first $10K in automated email revenue starts with your next triggered send.**
 
 -- *Updated April 2024 | Data sources: Klaviyo, Omnisend, DMA, Barilliance, Recharge, Smile.io*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-07",
     category: "Email Marketing",
@@ -622,7 +622,7 @@ Because in email marketing--as in everything--the most powerful strategy isn't f
 
 ---  
 *Sources: DMA 2023 ROI Study, HubSpot State of Marketing Report (2023), Klaviyo Benchmark Report (Q1 2024), Omnisend Commerce Trends, Yesware Sales Engagement Data, Segment Preference Center Impact Study.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-09",
     category: "Email Marketing",
@@ -733,7 +733,7 @@ Start small. Test relentlessly. Double down on what moves the needle. And rememb
 --  
 *Got a growth win or question? Reply to this post--I read every response.*  
 *P.S. Grab my free "2026 Newsletter Launch Kit" (includes 5 swipe-worthy lead magnet templates + landing page audit checklist) at [yourdomain.com/kit](https://yourdomain.com/kit).*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-11",
     category: "Email Marketing",
@@ -839,7 +839,7 @@ Because in email marketing, intuition guesses. Data decides.
 ➡️ Bookmark Evan Miller's AB Test Calculator: [evanmiller.org/ab-testing/sample-size.html](https://www.evanmiller.org/ab-testing/sample-size.html)  
 
 *Have a test that surprised you? Share your biggest A/B win (or fail!) in the comments below.* 📩`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-13",
     category: "Email Marketing",
@@ -949,7 +949,7 @@ Start small: Pick *one* template this week. Audit its contrast ratios. Add seman
 → Join the [Email Dev Slack Community](https://emaildev.slack.com) -- 12,400+ designers & developers sharing real-time client quirks.  
 
 *Last updated: April 2026. Data sources: Litmus, Email on Acid, WebAIM, Campaign Monitor, and internal rendering tests across 32 email clients.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-15",
     category: "Email Marketing",
@@ -1066,7 +1066,7 @@ Your open rates -- and your bottom line -- will thank you.
 ---
 
 *🔍 Bonus Resource:* Download our free **Segmentation Audit Checklist** (includes 12 validation questions + ESP-specific setup guides) at [yourdomain.com/segmentation-checklist](https://yourdomain.com/segmentation-checklist).`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-17",
     category: "Email Marketing",
@@ -1176,7 +1176,7 @@ Because in 2024 and beyond, the most powerful email list isn't the biggest -- it
 ---
 
 **🔔 Want a free checklist?** Download our *CAN-SPAM + GDPR Email Compliance Audit Kit* -- including template consent language, footer snippets, and a vendor questionnaire -- at [yourbrand.com/compliance-kit](https://yourbrand.com/compliance-kit).`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-19",
     category: "Email Marketing",
@@ -1273,7 +1273,7 @@ Because in 2026, the best cold emails don't feel cold at all -- they feel like t
 **Ready to upgrade?** Download our free *2026 Cold Email Health Scorecard* (includes deliverability checklist, sequence audit template, and personalization scoring rubric) → [Get It Here](https://example.com/2026-cold-email-scorecard)  
 
 *Have a 2026 tactic that crushed it? Reply to this post -- we feature top reader strategies monthly.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-21",
     category: "Email Marketing",
@@ -1387,7 +1387,7 @@ Because in the age of attention scarcity, the most powerful revenue driver isn't
 - Litmus (2024). *Email Client Market Share & Rendering Data*.  
 - Zendesk (2023). *Customer Service Trends Report*.  
 - Shopify Plus (2023). *Brand Case Studies: Revenue Lift from Email Optimization*.`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-23",
     category: "Email Marketing",
@@ -1497,7 +1497,7 @@ And always ask: *What will I change based on this number?* If the answer is "not
 Measure with purpose. Interpret with context. Act with speed. That's how email transforms from a broadcast channel into your highest-performing growth engine.
 
 *-- Updated with 2024 benchmarks from Klaviyo, HubSpot, Omnisend, and the DMA.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-25",
     category: "Email Marketing",
@@ -1616,7 +1616,7 @@ Because in the age of foldable screens, AI-powered inboxes, and voice-triggered 
 
 *Sources: Litmus 2025 State of Email Report, Email Monday Mobile Audit (Q1 2026), Akamai Email Load Time Benchmarks (2025), HubSpot Email Marketing Benchmarks (2026), Statista Mobile OS Preferences (Q2 2026).*  
 *Word count: 728*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-27",
     category: "Email Marketing",
@@ -1724,7 +1724,7 @@ Because the goal isn't zero unsubscribes--that's unrealistic and even unhealthy 
 🔹 *Within 30 days*: Launch a win-back sequence for subscribers inactive >60 days.
 
 Your list isn't just contacts--it's a community. Treat it like one.`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-29",
     category: "Email Marketing",
@@ -1803,7 +1803,7 @@ AI in email marketing in 2026 isn't about replacing marketers--it's about elevat
 Start small. Test one capability. Measure rigorously. Iterate fast. Because in 2026, the inbox isn't just a channel--it's your most intelligent, responsive, and revenue-generating conversation partner.
 
 *What AI email capability will you pilot next? Share your plan in the comments--we'll feature the most actionable roadmap in our June newsletter.* 🚀`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-30",
     category: "Email Marketing",
@@ -1927,7 +1927,7 @@ Start small: implement the 3-email sequence. Track conversions for 30 days. Then
 
 --  
 *Sources: Klaviyo 2023 Email Benchmark Report, Baymard Institute Cart Abandonment Rate Study (2024), Shopify Merchant Impact Report (2023), Omnisend Behavioral Email Performance Index, Experian Email Marketing Study (2023).*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-05-31",
     category: "Email Marketing",
@@ -2047,7 +2047,7 @@ It begins loyalty.
 👉 *Download our free Welcome Email Swipe File* (12 proven templates + subject line bank + timing checklist) at [yourwebsite.com/welcome-kit](https://yourwebsite.com/welcome-kit)  
 
 *Have a welcome series that crushed it? Share your win (or lesson) with us on Twitter/X @YourBrand -- we feature standout examples monthly.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-01",
     category: "Email Marketing",
@@ -2138,7 +2138,7 @@ Before hitting *send*, verify:
 Inclusion isn't a feature--it's the foundation. When you design email for the edges (low vision, motor impairments, ADHD, dyslexia), you build resilience, clarity, and empathy into every pixel and paragraph. And in a world where attention is scarce and trust is fragile, that's not just ethical. It's your most powerful differentiator.
 
 Start small. Audit one campaign this week. Then iterate. Because the most accessible email isn't perfect--it's *possible*. And possible is where belonging begins.`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-02",
     category: "Email Marketing",
@@ -2224,7 +2224,7 @@ If >3 major roadblocks arise -- walk away. In 2026, the best tool isn't the most
 Because ultimately, email success isn't measured in features shipped -- but in revenue attributed, trust earned, and time reclaimed.
 
 *What's your biggest email tool headache in 2026? Share it below -- we'll reply with a tailored platform shortlist.* 📩`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-03",
     category: "Email Marketing",
@@ -2354,7 +2354,7 @@ Because in the end, your most profitable customer isn't the one you just acquire
 → Add a loyalty onboarding email--if you don't have one yet, start with a simple "Here's how to earn your first 500 points."
 
 Loyalty isn't built in a day--but it *is* built, one thoughtful email at a time.`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-04",
     category: "Email Marketing",
@@ -2469,7 +2469,7 @@ What your subscribers *really* want is to feel seen -- not just addressed.
 - HubSpot State of Personalization Report  
 - Shopify Merchant Impact Survey (2024)  
 - Litmus Email Client & Rendering Guide (2024)`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-05",
     category: "Email Marketing",
@@ -2577,7 +2577,7 @@ The "best time" isn't found in a chart--it's discovered in *your data*, refined 
 Now go check your ESP's send-time analytics dashboard. Your next 12% lift in CTR is waiting.
 
 *📊 Bonus Resource: Download our free [Send-Time Optimization Scorecard](https://example.com/sendtime-scorecard) -- a 5-minute audit tool to grade your current timing strategy.*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-06",
     category: "Email Marketing",
@@ -2699,7 +2699,7 @@ Because when your ROI calculation includes retention, referrals, and reduced chu
 → Book a 30-min ROI diagnostic call with our email strategy team  
 
 *Sources: DMA Email Marketing Benchmark Report (2023), HubSpot State of Marketing Report (2022), Omnisend Automation Benchmarks (2023), McKinsey Marketing Analytics Playbook (2023).*`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-07",
     category: "Email Marketing",
@@ -2802,7 +2802,7 @@ It's discovered in the quiet moment when a subscriber opens your email... and *s
 👉 *Download our free Frequency Optimization Checklist* (includes segment templates, A/B test planner, and preference center copy snippets) at [yourdomain.com/frequency-checklist](https://yourdomain.com/frequency-checklist).  
 
 *Have a frequency win (or horror story)? Share it in the comments below -- let's learn together.* 📩`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-08",
     category: "Email Marketing",
@@ -2908,7 +2908,7 @@ All tests were conducted in Q2 2024 using identical HTML email templates (respon
 Testing email isn't overhead--it's insurance. And in a world where **1 in 5 marketing emails never reaches the inbox** (Return Path, 2023), the right tool doesn't just save time. It saves revenue, reputation, and ROI.
 
 Now go test--then send with confidence. 📩`,
-    author: "Alex Mercer",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategist",
     date: "2026-06-09",
     category: "Email Marketing",
@@ -2973,7 +2973,7 @@ Track these KPIs: open rate (B2B benchmark: 21-25%), click-through rate (2-5%), 
 ## Getting Started
 
 Start with one lifecycle workflow (welcome series is the highest-impact), measure results for 30 days, then add a lead nurturing sequence. Most B2B organizations see 20-30% of their total pipeline generated through automated email campaigns within 3-4 months.`,
-    author: "Sarah Chen",
+    author: "Amy Foster",
     authorRole: "Senior SaaS Analyst",
     date: "2026-04-28",
     category: "Email Marketing",
@@ -3186,7 +3186,7 @@ There is no single \"best\" email marketing platform — the right choice depend
 For most growing businesses, the optimal setup is a dual-platform strategy: Mailchimp or Constant Contact for marketing emails, and SendGrid for transactional emails. The investment in managing two platforms pays for itself through better deliverability, more targeted features, and lower overall costs.
 
 **Sources:** G2 Spring 2026 Email Marketing Reviews, Capterra Email Marketing Category Reviews (accessed June 2026), Mailchimp Pricing Page (June 2026), Constant Contact Pricing Page (June 2026), Twilio SendGrid Pricing Page (June 2026), Data & Marketing Association Email Marketing ROI Report (2025-2026), SaaStr API Quality Report Card (May 2026), Intuit Mailchimp Q2 2026 Product Updates. All ratings, prices, and statistics are current as of June 2026.`,
-    author: "Daniel Liu",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategy Analyst",
     date: "2026-06-05",
     category: "Email Marketing",
@@ -3376,7 +3376,7 @@ Email in 2026 isn’t dying—it’s maturing. The noise has been filtered out. 
 At EmailCompare.net, we believe the future of email belongs not to the loudest, but to the most intentional. Start there—and let the data guide the rest.
 
 *Methodology Note: All benchmarks reflect median values across ≥500 unique senders per industry. Data excludes transactional emails (password resets, order confirmations) and internal corporate communications. Statistical significance was confirmed via Kruskal-Wallis H tests (α = 0.01). Full methodology available at emailcompare.net/research/methodology-2026.*`,
-    author: "Daniel Liu",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategy Analyst",
     date: "June 06, 2026",
     category: "Email Marketing",
@@ -3588,7 +3588,7 @@ A: HubSpot and ActiveCampaign include built-in CRMs. SendFox has a lightweight C
 A: AI features are becoming standard but aren't yet a differentiator. Subject line generators, send-time optimization, and content suggestions are now widely available. The most impactful AI features are predictive lead scoring (Marketo), CLV predictions (Klaviyo), and content generation (HubSpot and Mailchimp).
 
 *Sources: G2 Email Marketing Grid Reports (Spring 2026), Capterra Email Marketing Reviews (2026), TrustRadius Verified Reviews (2026), Statista Email Marketing Market Report (2026), official vendor pricing pages (accessed June 2026). All ratings reflect user experiences as of June 2026. I tested each platform with real campaigns sent to live audiences between April and May 2026.*`,
-    author: "Daniel Liu",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategy Analyst",
     date: "June 07, 2026",
     category: "Email Marketing",
@@ -3655,7 +3655,7 @@ A: Pricing models have shifted: Klaviyo and ActiveCampaign now charge per *activ
 For most growth-stage brands, **Klaviyo** delivers the strongest balance of predictive power, privacy compliance, and DTC-specific automation—especially when paired with Shopify or BigCommerce. However, **ActiveCampaign** remains the optimal choice for B2B teams needing deep CRM integration and multi-step nurturing, while **HubSpot Marketing Hub** is unmatched for enterprises requiring full revenue operations alignment. Ultimately, 2026 rewards platforms that treat email not as a broadcast channel—but as an intelligent, consent-driven conversation engine.
 
 *Sources: G2 Email Marketing Grid Reports (Spring 2026), Litmus 2026 Benchmark Report, Omnisend 2026 Data Survey, MarketingProfs AI Audit (Feb 2026), official vendor pricing pages (accessed June 2026). All ratings reflect user experiences as of June 2026.*`,
-    author: "Daniel Liu",
+    author: "Amy Foster",
     authorRole: "Email Marketing Strategy Analyst",
     date: "June 09, 2026",
     category: "Email Marketing",

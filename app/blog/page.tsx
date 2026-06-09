@@ -24,12 +24,11 @@ export default function BlogPage() {
             Blog
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-[#FEF2F0] tracking-tight mb-3">
-            Insights &{" "}
-            <span className="text-gradient">Expert Analysis</span>
+            Email Marketing{" "}
+            <span className="text-gradient">Guides</span>
           </h1>
           <p className="text-lg text-[#BE8A83] max-w-2xl mx-auto">
-            In-depth comparisons, buying guides, and strategies to help you make
-            smarter email marketing software decisions.
+            In-depth comparisons of email marketing platforms, automation tools, and deliverability services. Expert reviews to help you choose the right email solution.
           </p>
         </div>
 
