@@ -31,6 +31,7 @@ const BLOG_SLUGS = [
     "mailchimp-vs-constant-contact-vs-sendgrid-2026",
     "email-marketing-benchmarks-2026",
     "email-marketing-automation-comparison-2026",
+    "best-email-marketing-platforms-compared-2026",
 ] as const;
 
 const TOOL_SLUGS = [
