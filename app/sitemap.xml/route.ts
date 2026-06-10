@@ -32,6 +32,7 @@ const BLOG_SLUGS = [
     "email-marketing-benchmarks-2026",
     "email-marketing-automation-comparison-2026",
     "best-email-marketing-platforms-compared-2026",
+    "email-design-eye-tracking-heatmaps-2026",
 ] as const;
 
 const TOOL_SLUGS = [
