@@ -20,7 +20,7 @@ export async function generateMetadata({
   const post = BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) return { title: "Post Not Found" };
   return {
-    title: `${post.title} — Email Marketing Tools Hub`,
+    title: `${post.title} — Email Compare by PeakBureau`,
     description: post.excerpt,
   };
 }
@@ -166,11 +166,11 @@ export default async function BlogPostPage({
     post.title,
     post.author,
     post.date,
-    'Email Marketing Tools Hub',
+    'Email Compare by PeakBureau',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'Email Marketing Tools Hub',
+    'Email Compare by PeakBureau',
     'https://emailcompare.net',
     'Comprehensive email marketing directory and tool hub for modern enterprises.'
   );

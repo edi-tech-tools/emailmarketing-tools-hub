@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Email Marketing Tools Hub",
+  title: "Privacy Policy — Email Compare by PeakBureau",
   description:
-    "Learn how Email Marketing Tools Hub collects, uses, and protects your personal data. Our privacy policy outlines our commitment to your privacy and data security.",
+    "Learn how Email Compare by PeakBureau collects, uses, and protects your personal data. Our privacy policy outlines our commitment to your privacy and data security.",
 };
 
 export default function PrivacyPage() {
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">1. Introduction</h2>
             <p>
-              Email Marketing Tools Hub ("we," "our," or "us") is committed to protecting your privacy.
+              Email Compare by PeakBureau ("we," "our," or "us") is committed to protecting your privacy.
               This Privacy Policy explains how we collect, use, disclose, and safeguard your
               information when you visit our website emailcompare.net (the "Site"). Please read this
               policy carefully. If you do not agree with the terms, do not access the Site.

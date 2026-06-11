@@ -122,8 +122,8 @@ Start today:
 Because in 2026, *if it's not authenticated, it's not delivered.*
 
 -- *Updated for Google/Yahoo 2026 enforcement deadlines. Verified against RFC 7489, RFC 8301, and M3AAWG guidance.*`,
-    author: "Amy Foster",
-    authorRole: "Email Marketing Strategist",
+    author: "Sofia Reyes",
+    authorRole: "Content Director at PeakBureau",
     date: "2026-05-10",
     category: "Email Marketing",
     readTime: 10,
@@ -245,8 +245,8 @@ In 2026, email isn't getting harder--it's getting *smarter*. ISPs reward consist
 Because when your email lands in the inbox, everything else becomes possible.
 
 *Need a free deliverability health check? Download our 2026 Email Deliverability Scorecard (includes 12-point audit + custom recommendations) at [yourdomain.com/deliverability-scorecard](https://yourdomain.com/deliverability-scorecard).*`,
-    author: "Amy Foster",
-    authorRole: "Email Marketing Strategist",
+    author: "Sofia Reyes",
+    authorRole: "Content Director at PeakBureau",
     date: "2026-05-11",
     category: "Email Marketing",
     readTime: 9,
@@ -483,8 +483,8 @@ A: HubSpot and ActiveCampaign include built-in CRMs. SendFox has a lightweight C
 A: AI features are becoming standard but aren't yet a differentiator. Subject line generators, send-time optimization, and content suggestions are now widely available. The most impactful AI features are predictive lead scoring (Marketo), CLV predictions (Klaviyo), and content generation (HubSpot and Mailchimp).
 
 *Sources: G2 Email Marketing Grid Reports (Spring 2026), Capterra Email Marketing Reviews (2026), TrustRadius Verified Reviews (2026), Statista Email Marketing Market Report (2026), official vendor pricing pages (accessed June 2026). All ratings reflect user experiences as of June 2026. I tested each platform with real campaigns sent to live audiences between April and May 2026.*`,
-    author: "Amy Foster",
-    authorRole: "Email Marketing Strategy Analyst",
+    author: "Marcus Chen",
+    authorRole: "E-Commerce Strategy Lead at PeakBureau",
     date: "2026-05-12",
     category: "Email Marketing",
     readTime: 18,
@@ -550,8 +550,8 @@ A: Pricing models have shifted: Klaviyo and ActiveCampaign now charge per *activ
 For most growth-stage brands, **Klaviyo** delivers the strongest balance of predictive power, privacy compliance, and DTC-specific automation—especially when paired with Shopify or BigCommerce. However, **ActiveCampaign** remains the optimal choice for B2B teams needing deep CRM integration and multi-step nurturing, while **HubSpot Marketing Hub** is unmatched for enterprises requiring full revenue operations alignment. Ultimately, 2026 rewards platforms that treat email not as a broadcast channel—but as an intelligent, consent-driven conversation engine.
 
 *Sources: G2 Email Marketing Grid Reports (Spring 2026), Litmus 2026 Benchmark Report, Omnisend 2026 Data Survey, MarketingProfs AI Audit (Feb 2026), official vendor pricing pages (accessed June 2026). All ratings reflect user experiences as of June 2026.*`,
-    author: "Amy Foster",
-    authorRole: "Email Marketing Strategy Analyst",
+    author: "Sofia Reyes",
+    authorRole: "Content Director at PeakBureau",
     date: "2026-05-13",
     category: "Email Marketing",
     readTime: 12,
@@ -620,8 +620,8 @@ Not replace — augment. Heatmaps explain *why* variant B outperformed A. Use th
 Eye-tracking and heatmap analysis in 2026 is no longer a luxury reserved for Fortune 500 labs — it's an essential lens for empathetic, evidence-based email design. As attention becomes the scarcest resource in digital communication, understanding *where* and *how* people look isn't just tactical — it's ethical. Designing for real human behavior, not assumed patterns, leads to clearer messaging, better accessibility, and stronger trust. The inbox isn't static. Neither should your design process be.
 
 Sources: Litmus 2026 Email Engagement Report; Email Design Alliance Attention Benchmark Study (Q1 2026); Journal of Digital Marketing Technology, Vol. 12, Issue 3; Gartner "Emerging Analytics in MarTech" Survey, April 2026.`,
-    author: "Amy Foster",
-    authorRole: "Email Marketing Strategy Analyst",
+    author: "Daniel Park",
+    authorRole: "Data Analyst at PeakBureau",
     date: "2026-05-14",
     category: "Email Marketing",
     readTime: 11,
@@ -703,8 +703,8 @@ Yes -- data is stratified by annual revenue bands ($1M-$10M, $10M-$100M, $100M+)
 
 ---
 *Methodology note: Data sourced from anonymized campaign exports (2025 Q3-2026 Q2), verified via third-party revenue reconciliation. Excludes vanity metrics (opens, clicks) and non-revenue KPIs.*`,
-    author: "Amy Foster",
-    authorRole: "Email Marketing Strategy Analyst",
+    author: "Daniel Park",
+    authorRole: "Data Analyst at PeakBureau",
     date: "2026-06-10",
     category: "Email Marketing",
     readTime: 12,

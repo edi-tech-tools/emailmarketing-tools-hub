@@ -64,7 +64,7 @@ export default function ToolDetailPage() {
     scripts.push(s1);
 
     const org = organizationSchema(
-      'Email Marketing Tools Hub',
+      'Email Compare by PeakBureau',
       'https://emailcompare.net',
       'Comprehensive email marketing directory and tool hub for modern enterprises.'
     );

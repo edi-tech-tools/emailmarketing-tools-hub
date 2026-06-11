@@ -30,6 +30,5 @@ patch.diff
 newtools.js
 new-tools-batch.ts
 .vercel
-*.py
-*.json
-data/
+*.pyc
+__pycache__/

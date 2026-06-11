@@ -4,29 +4,56 @@
 
 @layer base {
   :root {
-    --bg-cosmic: #09090b;
-    --bg-card: #111115;
-    --border-cosmic: rgba(255, 255, 255, 0.06);
-    --border-hover: rgba(255, 255, 255, 0.14);
-    --text-bright: #e6eefc;
-    --text-main: #9bb1d0;
-    --text-dim: #708094;
-    --accent-cyan: #00bcd4;
-    --accent-purple: #a78bfa;
-    --accent-pink: #f472b6;
+    --bg-primary: #0a0a0a;
+    --bg-card: #141414;
+    --bg-card-hover: #1c1c1c;
+    --border-primary: rgba(220, 38, 38, 0.2);
+    --border-hover: rgba(220, 38, 38, 0.4);
+    --text-bright: #fef2f2;
+    --text-main: #e5c7c7;
+    --text-dim: #a88282;
+    --accent-red: #dc2626;
+    --accent-red-light: #ef4444;
+    --accent-red-dark: #b91c1c;
   }
 
   body {
-    background: var(--bg-cosmic);
+    background: var(--bg-primary);
     color: var(--text-main);
     -webkit-font-smoothing: antialiased;
   }
 
-  * { border-color: var(--border-cosmic); }
+  * {
+    border-color: var(--border-primary);
+  }
 }
 
 @layer components {
-  .card-liquid {
-    @apply rounded-2xl border border-white/[0.06] bg-[#111115] hover:border-white/[0.14] transition-colors;
+  .table-compare {
+    @apply w-full border-collapse;
+  }
+  .table-compare th {
+    @apply px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-[#fef2f2] bg-[#1a0a0a] border-b-2 border-[#dc2626]/30;
+  }
+  .table-compare td {
+    @apply px-4 py-3 text-sm border-b border-[#dc2626]/10;
+  }
+  .table-compare tr:hover td {
+    @apply bg-[#1c0a0a];
+  }
+  .badge-red {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#dc2626]/15 text-[#ef4444] border border-[#dc2626]/20;
+  }
+  .btn-red {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#dc2626] hover:bg-[#b91c1c] text-white text-sm font-medium transition-all duration-200;
+  }
+  .btn-red-outline {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-[#dc2626]/30 text-[#ef4444] hover:bg-[#dc2626]/10 text-sm font-medium transition-all duration-200;
+  }
+  .card-dark {
+    @apply rounded-xl border border-[#dc2626]/10 bg-[#0f0f0f] p-6;
+  }
+  .section-title {
+    @apply text-[10px] font-mono tracking-[0.25em] text-[#a88282] mb-6 uppercase text-center;
   }
 }
