@@ -300,7 +300,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Benchmark Email works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Mid-market companies needing intuitive email automation with advanced segmentation and responsive templates for e-commerce and SaaS.",
     websiteUrl: "https://www.benchmark-email.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -359,7 +359,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. MailerLite works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Budget-conscious creators and small businesses seeking a simple, clean interface with generous free tier and reliable email deliverability.",
     websiteUrl: "https://www.mailerlite.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -418,7 +418,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. ActiveCampaign works well for e-commerce, SaaS, and content publishers.",
+    useCase: "B2B and e-commerce teams requiring advanced marketing automation with powerful CRM integration, lead scoring, and conditional content branching.",
     websiteUrl: "https://www.activecampaign.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -477,7 +477,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. ConvertKit works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Creators, bloggers, and course builders needing audience-focused email marketing with visual automation and seamless landing page publishing.",
     websiteUrl: "https://www.convertkit.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -536,7 +536,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Klaviyo works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Data-driven e-commerce brands leveraging purchase behavior and predictive analytics for hyper-personalized email and SMS campaigns at scale.",
     websiteUrl: "https://www.klaviyo.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -595,7 +595,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Omnisend works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Omnichannel e-commerce retailers unifying email, SMS, and push notifications in pre-built automation workflows for cart recovery and welcome series.",
     websiteUrl: "https://www.omnisend.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -719,7 +719,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Emarsys works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Enterprise omnichannel retailers requiring AI-powered personalization, predictive analytics, and real-time customer journey orchestration across email, mobile, and web.",
     websiteUrl: "https://www.emarsys.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -778,7 +778,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Salesforce Marketing Cloud works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Large enterprises using Salesforce ecosystem needing deep CRM-native automation with comprehensive journey builder and advanced audience segmentation.",
     websiteUrl: "https://www.salesforce-marketing-cloud.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -837,7 +837,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. HubSpot Marketing Hub works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Growth-oriented companies using HubSpot CRM seeking unified marketing, sales, and content tools with smart lead scoring and multi-channel campaigns.",
     websiteUrl: "https://www.hubspot-marketing-hub.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -896,7 +896,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Marketo Engage works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Enterprise B2B marketing teams requiring sophisticated lead management, account-based marketing, and cross-channel campaign ROI analytics at scale.",
     websiteUrl: "https://www.marketo-engage.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -955,7 +955,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Oracle Eloqua works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Global enterprises running complex, compliance-heavy B2B campaigns needing advanced campaign segmentation, dynamic content, and multi-language automation.",
     websiteUrl: "https://www.oracle-eloqua.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1014,7 +1014,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Pardot (Account Engagement) works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Salesforce-centric B2B organizations aligning marketing and sales through account-based engagement scoring and automated lead nurturing workflows.",
     websiteUrl: "https://www.pardot.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1073,7 +1073,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Zoho Campaigns works well for e-commerce, SaaS, and content publishers.",
+    useCase: "SMBs and freelancers on a budget wanting an affordable, integrated marketing suite with email, automation, and CRM under one low monthly price.",
     websiteUrl: "https://www.zoho-campaigns.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1132,7 +1132,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. SendGrid works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Developers and product teams needing a reliable transactional email API with high throughput, deliverability analytics, and scalable SMTP infrastructure.",
     websiteUrl: "https://www.sendgrid.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1317,7 +1317,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Mailgun works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Engineering teams and DevOps requiring a flexible, API-first email delivery platform with real-time analytics, webhook events, and transactional sending at enterprise scale.",
     websiteUrl: "https://www.mailgun.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1376,7 +1376,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. SparkPost works well for e-commerce, SaaS, and content publishers.",
+    useCase: "High-volume transactional senders prioritizing inbox placement, real-time engagement analytics, and dedicated infrastructure for critical application emails.",
     websiteUrl: "https://www.sparkpost.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1435,7 +1435,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. SocketLabs works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Mid-market companies needing a managed email delivery platform with dedicated IP support, compliance tools, and transparent deliverability monitoring for transactional campaigns.",
     websiteUrl: "https://www.socketlabs.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1558,7 +1558,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. SMTP.com works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Businesses requiring a straightforward SMTP relay service with strong deliverability, real-time analytics, and simple API integration for transactional and marketing emails.",
     websiteUrl: "https://www.smtp.com.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1617,7 +1617,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. SendPulse works well for e-commerce, SaaS, and content publishers.",
+    useCase: "SMBs and startups needing a multi-channel marketing platform combining email, SMS, web push, and chatbot features under one simple dashboard with generous free tier.",
     websiteUrl: "https://www.sendpulse.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1676,7 +1676,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Pepipost works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Cost-conscious startups looking for a developer-friendly transactional email API with flexible pay-as-you-go pricing and straightforward SMTP integration.",
     websiteUrl: "https://www.pepipost.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1735,7 +1735,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Litmus works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Email designers and marketing QA teams needing cross-client email rendering, spam testing, and campaign analytics to validate deliverability before send.",
     websiteUrl: "https://www.litmus.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1794,7 +1794,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Email on Acid works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Email teams and agencies ensuring inbox placement across multiple email clients with pre-send previews, spam analysis, and email file format accessibility checks.",
     websiteUrl: "https://www.email-on-acid.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1853,7 +1853,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Mail Tester works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Email deliverability specialists and senders wanting a free, quick spam score checker and email health validator before launching campaigns to ensure ISP compliance.",
     websiteUrl: "https://www.mail-tester.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -1972,7 +1972,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. 250ok works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Enterprise deliverability and compliance teams monitoring sender reputation, tracking blacklists, and identifying inbox placement issues across major ISPs and regions.",
     websiteUrl: "https://www.250ok.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -2031,7 +2031,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Validity Everest works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Email operations teams and delivery consultants monitoring inbox placement, analyzing seed test results, and tracking sender reputation trends for continuous improvement.",
     websiteUrl: "https://www.validity-everest.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -2090,7 +2090,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. InboxInspector works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Email marketers and agencies previewing how campaigns render across 100+ email clients combined with spam testing and accessibility validation before deployment.",
     websiteUrl: "https://www.inboxinspector.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -2149,7 +2149,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Stripo.email works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Email designers and developers needing a visual drag-and-drop editor with responsive templates, reusable modules, and HTML export compatible with all major ESPs.",
     websiteUrl: "https://www.stripo.email.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -2208,7 +2208,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. BeeFree works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Marketing teams and agencies crafting responsive email templates with a free, intuitive drag-and-drop builder that generates clean HTML ready for any email platform.",
     websiteUrl: "https://www.beefree.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
@@ -2267,7 +2267,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Ideal for growing businesses that need reliable email marketing with good automation capabilities. Chamaileon works well for e-commerce, SaaS, and content publishers.",
+    useCase: "Enterprise marketing teams and agencies collaborating on email design with a modular drag-and-drop builder, asset management, and approval workflow integrations.",
     websiteUrl: "https://www.chamaileon.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
