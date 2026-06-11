@@ -36,11 +36,11 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">2. Description of Service</h2>
             <p>
-              Email Compare by PeakBureau is a curated directory platform that provides information,
-              comparisons, reviews, and pricing details about business-to-business email marketing software-as-a-
-              service tools. Our platform serves as a research and discovery resource. We do not
-              sell, license, or distribute the software products listed on our Site unless
-              explicitly stated otherwise.
+EmailMarketingTools is a curated directory platform that provides information,
+              comparisons, and reviews of email marketing software, automation
+              platforms, and deliverability tools. Our platform serves as a research
+              and discovery resource. We do not sell, license, or distribute the
+              software products listed on our Site unless explicitly stated otherwise.
             </p>
           </section>
 
