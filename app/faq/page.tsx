@@ -12,23 +12,23 @@ const FAQ_SCHEMA = {
       name: "What is email marketing?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "email marketing (Business-to-Email Marketing Software as a Service) refers to cloud-based software solutions that businesses subscribe to and use to support their operations. Unlike traditional software that requires on-premise installation, email marketing is hosted by the provider and accessed via a web browser. Examples include Salesforce (CRM), HubSpot (Marketing), Slack (Communication), and Asana (Project Management).",
+        text: "Email marketing software helps businesses create, send, and track email campaigns to engage customers and drive sales. Features typically include drag-and-drop editors, contact management, automation workflows, A/B testing, and analytics dashboards. Popular examples include Mailchimp, Constant Contact, Klaviyo, HubSpot, and ActiveCampaign.",
       },
     },
     {
       "@type": "Question",
-      name: "How do you choose the right SaaS tool for your business?",
+      name: "How do you choose the right email marketing platform?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Choosing the right SaaS tool involves defining your requirements, budgeting, evaluating features, reading verified user reviews from platforms like G2 and Capterra, considering integration capabilities, testing with free trials or demos, and assessing vendor support and scalability. Always prioritize tools that solve your specific pain points rather than getting distracted by feature bloat.",
+        text: "Start by defining your goals: lead nurturing, e-commerce recovery, newsletter engagement, or transactional emails. Key factors include audience size limits, deliverability rates, automation capabilities, template flexibility, integration with your CRM/e-commerce platform, and pricing structure. Most platforms offer free trials — test 2-3 before committing. For small businesses, Mailchimp or Constant Contact work well; for e-commerce, Klaviyo leads; for enterprise, HubSpot or Salesforce Marketing Cloud are top choices.",
       },
     },
     {
       "@type": "Question",
-      name: "What's the difference between B2B and B2C SaaS?",
+      name: "What's the difference between B2B and B2C email marketing tools?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "email marketing targets business customers and focuses on features like team collaboration, admin controls, security compliance, and ROI tracking. B2C SaaS targets individual consumers and prioritizes user experience, ease of use, and personal productivity. B2B products typically have higher price points, longer sales cycles, and require onboarding support, while B2C products are often self-serve with lower monthly fees.",
+        text: "Email marketing tools target business customers and focus on features like team collaboration, audience segmentation, automation workflows, and ROI tracking. Consumer-focused tools prioritize user experience, ease of use, and personal productivity. Business email platforms typically have higher price points, longer sales cycles, and require onboarding support, while consumer tools are often self-serve with lower monthly fees.",
       },
     },
     {
