@@ -25,10 +25,14 @@ dist-ssr
 
 # Next.js
 .next/
+.next_old/
 next-env.d.ts
 patch.diff
 newtools.js
 new-tools-batch.ts
+blog_entry_to_add.txt
+generate_blog.py
+generated_blog_content.txt
 .vercel
 *.pyc
 __pycache__/

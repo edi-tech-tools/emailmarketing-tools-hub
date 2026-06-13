@@ -8,6 +8,7 @@ const BLOG_SLUGS = [
     "email-design-eye-tracking-heatmaps-2026",
     "email-marketing-roi-benchmarks-2026",
     "mailchimp-vs-brevo-vs-constant-contact-2026",
+    "mailchimp-vs-constant-contact-vs-convertkit-2026",
 ] as const;
 
 const TOOL_SLUGS = [
