@@ -84,8 +84,7 @@ export default function AboutPage() {
               reviews, and practical use case recommendations.
             </p>
             <p>
-              Today, our 6-person team in Los Angeles covers 100+ email marketing 
-              tools across 15+ categories. We are independent, we are thorough, 
+              Today, our 6-person team in Los Angeles covers 60 email marketing tools across 8 categories. We are independent, we are thorough, 
               and we are committed to giving you the information you need to make 
               the right choice — no fluff, no bias, just data.
             </p>
