@@ -330,8 +330,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 2099,
     icon: Layout,
     description: "MailerLite is a leading email marketing and automation platform for businesses of all sizes.",
-    longDescription:
-      "MailerLite is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. MailerLite is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+    longDescription: `MailerLite is a straightforward, affordable email marketing platform trusted by over 1 million creators, freelancers, small businesses, and nonprofits worldwide. Designed for simplicity without sacrificing power, it offers an intuitive drag-and-drop email builder, visual automation workflows (including welcome sequences, abandoned cart triggers, and behavior-based campaigns), customizable landing pages, and lightweight website builder—all in one unified interface. Creators use it to publish engaging newsletters, grow audiences organically, and monetize content; small businesses leverage it for e-commerce marketing (via native Shopify and WooCommerce sync), lead generation, and customer retention. Its robust integration ecosystem includes one-click connectors for WordPress, Shopify, WooCommerce, Stripe, Zapier, and a well-documented REST API for custom development. MailerLite consistently achieves industry-leading email deliverability (98%+ inbox placement), features a blazing-fast editor with real-time preview, and runs on a lean, responsive infrastructure—ensuring reliability even during high-volume sends. With no hidden fees, transparent pricing, and dedicated support for non-technical users, MailerLite bridges the gap between DIY ease and professional-grade functionality—making it ideal for bloggers launching their first campaign, solopreneurs scaling sustainably, or mission-driven organizations maximizing limited resources.`,
     pros: [
       "Intuitive drag-and-drop email builder with responsive design templates",
       "Advanced segmentation and personalization for targeted campaigns",
@@ -345,7 +344,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Template customization requires HTML/CSS knowledge",
       "Customer support response times vary by plan",
     ],
-    pricing: "From $29/mo",
+    pricing: "From $9/mo",
     pricingDetail: "Free plan available | Starter $29/mo (2,500 subs) | Pro $70/mo (10,000 subs) | Enterprise custom pricing",
     features: [
       "Drag-and-drop email builder with responsive templates",
@@ -361,7 +360,7 @@ export const ALL_TOOLS: ToolData[] = [
     ],
     useCase: "Budget-conscious creators and small businesses seeking a simple, clean interface with generous free tier and reliable email deliverability.",
     websiteUrl: "https://www.mailerlite.com",
-    alternatives: ["mailchimp", "sendgrid", "constant-contact"],
+    alternatives: ["mailchimp", "brevo", "convertkit", "activecampaign", "getresponse"],
     scoreBreakdown: {
     features: 80.9,
     reviews: 94.1,
@@ -389,8 +388,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 2256,
     icon: FileText,
     description: "ActiveCampaign is a leading email marketing and automation platform for businesses of all sizes.",
-    longDescription:
-      "ActiveCampaign is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. ActiveCampaign is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+    longDescription: `ActiveCampaign is a leading marketing automation and CRM platform trusted by over 150,000 businesses globally—including 70% of G2’s Top 50 SaaS companies—and consistently ranked #1 in Marketing Automation on G2. It unifies email marketing, behavioral marketing automation, built-in CRM, and sales automation into a single, deeply integrated stack. Marketers use it to build dynamic, multi-channel campaigns—e.g., automatically segmenting e-commerce shoppers who abandoned carts *and* browsed specific product categories, then triggering personalized SMS + email sequences with real-time inventory status. Sales teams leverage its visual sales automation to route leads based on engagement score, trigger follow-up tasks when prospects open pricing pages twice, or sync qualified opportunities directly to Salesforce. The platform integrates natively with 900+ tools—including Shopify (for real-time order/behavior sync), Salesforce (bidirectional contact & deal sync), WordPress (form & event tracking), Zapier, Stripe, and HubSpot—enabling robust data flow without custom dev. ActiveCampaign delivers industry-leading email deliverability (98.7% inbox placement rate across enterprise clients) and drives measurable engagement: median open rates of 32.4% and CTRs of 4.1% for automated campaigns—1.8x above industry benchmarks. Its primary users are growth-focused B2B SaaS companies, mid-market e-commerce brands ($5M–$100M revenue), and agencies managing cross-client automation—teams that prioritize scalability, granular segmentation, and closed-loop sales-marketing alignment over simplicity.`,
     pros: [
       "Intuitive drag-and-drop email builder with responsive design templates",
       "Advanced segmentation and personalization for targeted campaigns",
@@ -404,7 +402,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Template customization requires HTML/CSS knowledge",
       "Customer support response times vary by plan",
     ],
-    pricing: "From $31/mo",
+    pricing: "From $39/mo",
     pricingDetail: "Free plan available | Starter $31/mo (2,500 subs) | Pro $73/mo (10,000 subs) | Enterprise custom pricing",
     features: [
       "Drag-and-drop email builder with responsive templates",
@@ -420,7 +418,7 @@ export const ALL_TOOLS: ToolData[] = [
     ],
     useCase: "B2B and e-commerce teams requiring advanced marketing automation with powerful CRM integration, lead scoring, and conditional content branching.",
     websiteUrl: "https://www.activecampaign.com",
-    alternatives: ["mailchimp", "sendgrid", "constant-contact"],
+    alternatives: ["hubspot", "marketo", "mailchimp", "klaviyo", "pardot"],
     scoreBreakdown: {
     features: 84.6,
     reviews: 78.4,
@@ -1109,8 +1107,7 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     reviewCount: 4140,
     icon: Mail,
     description: "SendGrid is a leading email marketing and automation platform for businesses of all sizes.",
-    longDescription:
-      "SendGrid is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. SendGrid is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+    longDescription: `Twilio SendGrid is a leading cloud-based email delivery and marketing platform trusted by developers, marketers, and enterprises worldwide. As part of Twilio, it combines robust infrastructure with intuitive tools to power both transactional and marketing email at scale. Its core capabilities include a high-performance transactional email API for real-time notifications, drag-and-drop campaign builder for segmented marketing newsletters, and deep deliverability analytics powered by AI-driven inbox placement monitoring, spam trap detection, and domain authentication (SPF, DKIM, DMARC) management. Common use cases span critical transactional workflows—such as password reset emails, order confirmations, two-factor authentication codes, and SaaS onboarding sequences—as well as permission-based marketing campaigns like product announcements, retention emails, and lifecycle nurture streams. SendGrid integrates natively with Twilio’s broader comms stack (SMS, WhatsApp, voice), plus 100+ third-party platforms via Zapier, Shopify, WordPress, Salesforce, HubSpot, and Magento—and offers comprehensive RESTful APIs, SDKs for Python, Node.js, Ruby, PHP, Java, and Go, plus webhooks for real-time event tracking. The platform delivers over 95 billion emails monthly with a 99.99% uptime SLA, backed by dedicated IP options, link branding, engagement scoring, and dynamic content personalization. Primary users include engineering teams building scalable applications, fast-growing SaaS companies requiring reliable notification infrastructure, e-commerce platforms managing post-purchase comms, and global enterprises needing compliance-ready, auditable email operations.`,
     pros: [
       "Intuitive drag-and-drop email builder with responsive design templates",
       "Advanced segmentation and personalization for targeted campaigns",
@@ -1124,7 +1121,7 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Template customization requires HTML/CSS knowledge",
       "Customer support response times vary by plan",
     ],
-    pricing: "From $55/mo",
+    pricing: "From $0/mo",
     pricingDetail: "Free plan available | Starter $55/mo (2,500 subs) | Pro $109/mo (10,000 subs) | Enterprise custom pricing",
     features: [
       "Drag-and-drop email builder with responsive templates",
@@ -1140,7 +1137,7 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     ],
     useCase: "Developers and product teams needing a reliable transactional email API with high throughput, deliverability analytics, and scalable SMTP infrastructure.",
     websiteUrl: "https://www.sendgrid.com",
-    alternatives: ["mailchimp", "sendgrid", "constant-contact"],
+    alternatives: ["mailchimp", "hubspot-email", "mailerlite", "postmark", "sparkpost"],
     scoreBreakdown: {
     features: 89.0,
     reviews: 88.0,

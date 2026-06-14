@@ -36,3 +36,4 @@ generated_blog_content.txt
 .vercel
 *.pyc
 __pycache__/
+.env
