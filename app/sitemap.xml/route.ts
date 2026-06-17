@@ -14,6 +14,7 @@ const BLOG_SLUGS = [
     "activecampaign-vs-mailerlite-vs-sendgrid-2026",
     "ai-powered-email-personalization-2026",
     "email-subject-line-ab-testing-guide-2026",
+    "email-marketing-benchmarks-2026-by-industry",
 ] as const;
 
 const TOOL_SLUGS = [
