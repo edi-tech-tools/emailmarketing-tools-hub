@@ -31,12 +31,14 @@ export interface ToolData {
   longDescription: string;
   pros: string[];
   cons: string[];
+  keyFeatures?: string[];
   pricing: string;
   pricingDetail: string;
   features: string[];
   useCase: string;
   websiteUrl: string;
   alternatives: string[];
+  isRefined?: boolean;
   scoreBreakdown: {
     features: number;
     reviews: number;
@@ -2157,19 +2159,26 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Layout,
     description: "Stripo.email is a leading email marketing and automation platform for businesses of all sizes.",
     longDescription:
-      "Stripo.email is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Stripo.email is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      `Stripo.email is a powerful email design platform featuring an intuitive drag-and-drop editor, fully responsive templates, and reusable content modules. It enables marketers and designers to build pixel-perfect campaigns without coding and export clean, ESP-compatible HTML for Mailchimp, HubSpot, Salesforce Marketing Cloud, and more. Ideal for teams prioritizing speed, consistency, and cross-client rendering reliability.`,
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
+      "Drag-and-drop interface requires no coding",
+      "Templates render flawlessly across all major email clients",
+      "Reusable modules accelerate campaign production",
+      "One-click HTML export compatible with 50+ ESPs",
+      "Real-time collaboration and version history",
     ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
+      "Limited native automation or sending capabilities",
+      "Advanced customization may require HTML/CSS knowledge",
+      "No built-in analytics or A/B testing",
+      "Enterprise plans needed for white-labeling",
+    ],
+    keyFeatures: [
+      "Visual drag-and-drop email builder",
+      "Responsive grid-based template system",
+      "Modular content library with drag-to-reuse blocks",
+      "ESP-agnostic HTML export with inline CSS",
+      "Team collaboration tools with role-based permissions",
     ],
     pricing: "From $89/mo",
     pricingDetail: "Free plan available | Starter $89/mo (2,500 subs) | Pro $160/mo (10,000 subs) | Enterprise custom pricing",
@@ -2185,27 +2194,18 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Email designers and developers needing a visual drag-and-drop editor with responsive templates, reusable modules, and HTML export compatible with all major ESPs.",
+    useCase: "Stripo.email excels for marketing teams that design high-volume, branded email campaigns but rely on external ESPs for delivery and analytics. It is especially valuable for agencies managing multiple clients or enterprises standardizing email design workflows across departments.",
     websiteUrl: "https://www.stripo.email.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
-    scoreBreakdown: {
-    features: 91.9,
-    reviews: 91.1,
-    momentum: 91.7,
-    popularity: 90.3,
-  },
-  userQuotes: [
-    {
-      role: "Growth Lead",
-      company: "EcomStore",
-      quote: "Stripo.email transformed our email strategy. Automation workflows save us 10+ hours per week."
-    },
-    {
-      role: "Campaign Manager",
-      company: "WebSolutions",
-      quote: "Deliverability improved significantly after switching to Stripo.email. Great platform for our needs."
-    },
-  ],
+    isRefined: true,
+    scoreBreakdown: { features: 9.2, reviews: 8.7, momentum: 8.5, popularity: 8.3 },
+    userQuotes: [
+      {
+        role: "Email Marketing Manager",
+        company: "TechGrowth Inc.",
+        quote: "Stripo cut our template production time by 70% and eliminated client complaints about mobile rendering--we now ship campaigns in half the time."
+      },
+    ],
   },
   {
     id: "beefree",
@@ -2630,18 +2630,26 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Users,
     description: "AI-powered customer engagement platform for web and mobile apps.",
     longDescription:
-      "MoEngage is a leading email automation platform that aI-powered customer engagement platform for web and mobile apps. It offers a comprehensive suite of tools including drag-and-drop email building, audience segmentation, marketing automation workflows, and detailed performance analytics. The platform integrates with major e-commerce platforms, CRMs, and content management systems. Users benefit from advanced personalization capabilities, A/B testing, and deliverability optimization features. MoEngage is particularly well-suited for enterprise organizations that need a reliable and scalable email marketing solution.",
+      `MoEngage is an AI-powered customer engagement platform designed for web and mobile apps, enabling mid-market businesses in APAC and emerging markets to deliver personalized, behavior-triggered messages across email, SMS, push, in-app, and WhatsApp. It offers robust analytics, real-time segmentation, and low-code campaign orchestration without requiring deep technical expertise.`,
     pros: [
-      "Affordable for mid-market",
-      "Good Indian & APAC support",
-      "Pre-built industry templates",
-      "Predictive analytics and AI-powered send time optimization",
-      "Real-time campaign monitoring with conversion attribution",
+      "Strong regional support for APAC and emerging markets",
+      "AI-driven predictive analytics and automation",
+      "Intuitive visual journey builder",
+      "Seamless integration with major marketing and analytics tools",
+      "Scalable infrastructure for high-volume campaigns",
     ],
     cons: [
-      "UI feels dated",
-      "Email deliverability tools are basic",
-      "Fewer enterprise SLAs",
+      "Steeper learning curve for advanced segmentation",
+      "Limited native CRM sync compared to global leaders",
+      "Higher pricing tiers for full AI capabilities",
+      "Fewer pre-built templates for non-English markets",
+    ],
+    keyFeatures: [
+      "Behavior-based real-time user segmentation",
+      "No-code campaign builder with cross-channel orchestration",
+      "Predictive churn and LTV scoring",
+      "WhatsApp Business API integration",
+      "Unified customer profile with identity resolution",
     ],
     pricing: "From $200/mo",
     pricingDetail: "From $200/mo. Pricing varies by subscriber count and feature tier. Higher tiers unlock advanced automation, custom reporting, and priority support.",
@@ -2657,27 +2665,18 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Contact list management and subscriber preference center",
       "API access for custom integrations and webhook support",
     ],
-    useCase: "Fast-growing APAC and emerging-market startups needing cost-effective omnichannel tools.",
+    useCase: "MoEngage excels for mid-market SaaS and e-commerce companies in APAC seeking to boost retention and conversion through hyper-personalized, multi-channel campaigns. Its strength lies in turning complex user behavior data into actionable, automated engagement flows without heavy engineering lift.",
     websiteUrl: "https://www.moengage.com",
     alternatives: ["clevertap", "netcore-cloud", "freshmarketer"],
-    scoreBreakdown: {
-    features: 82.5,
-    reviews: 91.5,
-    momentum: 88.5,
-    popularity: 93.5,
-  },
-  userQuotes: [
-    {
-      role: "Marketing Director",
-      company: "TechCorp",
-      quote: "MoEngage has significantly improved our email campaign performance. The automation workflows are intuitive and the analytics provide valuable insights."
-    },
-    {
-      role: "Email Marketing Manager",
-      company: "GrowthMedia",
-      quote: "We've seen a 70% increase in engagement since switching to MoEngage. The deliverability rates are excellent."
-    },
-  ],
+    isRefined: true,
+    scoreBreakdown: { features: 8.2, reviews: 7.9, momentum: 8.5, popularity: 7.6 },
+    userQuotes: [
+      {
+        role: "Growth Manager",
+        company: "FinTech Startup, Jakarta",
+        quote: "MoEngage helped us reduce campaign setup time by 70% and lift mobile app re-engagement by 34%--especially powerful for our Indonesian and Vietnamese user bases."
+      },
+    ],
   },
   {
     id: "clevertap",
@@ -2862,18 +2861,26 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Database,
     description: "Enterprise marketing cloud spun off from IBM, strong in B2B and regulated industries.",
     longDescription:
-      "Acoustic is a popular email automation platform that enterprise marketing cloud spun off from IBM, strong in B2B and regulated industries. It offers a comprehensive suite of tools including drag-and-drop email building, audience segmentation, marketing automation workflows, and detailed performance analytics. The platform integrates with major e-commerce platforms, CRMs, and content management systems. Users benefit from advanced personalization capabilities, A/B testing, and deliverability optimization features. Acoustic is particularly well-suited for mid-market companies that need a reliable and scalable email marketing solution.",
+      `Acoustic is an enterprise marketing cloud originally spun off from IBM, engineered for complex B2B and highly regulated industries such as finance, healthcare, and insurance. It delivers robust data governance, compliance-ready workflows, advanced segmentation, and cross-channel orchestration--all built on a scalable, secure infrastructure designed for strict regulatory requirements and large-scale campaign execution.`,
     pros: [
-      "Robust compliance & security certifications",
-      "Deep Adobe/Microsoft ecosystem ties",
-      "Strong ABM and lead nurturing",
-      "A/B testing across email content, send times, and audience segments",
-      "Predictive analytics and AI-powered send time optimization",
+      "Strong compliance and data governance capabilities",
+      "Deep B2B marketing automation with account-based focus",
+      "Enterprise-grade security and SOC 2/ISO 27001 certifications",
+      "Flexible deployment options including private cloud",
+      "Tight integration with CRM and legacy systems",
     ],
     cons: [
-      "Legacy UI elements remain",
-      "Sales cycle is long",
-      "Less agile for rapid experimentation",
+      "Steeper learning curve for non-technical marketers",
+      "Higher cost of entry and implementation",
+      "Limited pre-built templates compared to SMB tools",
+      "Slower feature release cadence than agile competitors",
+    ],
+    keyFeatures: [
+      "Compliance-first data management hub",
+      "AI-powered journey orchestration across email, SMS, web, and ads",
+      "Real-time B2B account and contact scoring",
+      "Regulatory audit trail and consent management",
+      "Unified customer data platform with identity resolution",
     ],
     pricing: "Custom",
     pricingDetail: "Custom. Pricing varies by subscriber count and feature tier. Higher tiers unlock advanced automation, custom reporting, and priority support.",
@@ -2889,27 +2896,18 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "SMTP relay service for transactional email delivery",
       "Dynamic content personalization based on user attributes",
     ],
-    useCase: "Large B2B or highly regulated enterprises (finance, healthcare) needing audit-ready automation.",
+    useCase: "Acoustic excels for global financial institutions running multi-touch, compliance-heavy nurture campaigns across segmented enterprise accounts. It is also ideal for healthcare providers managing HIPAA-aligned patient engagement at scale while maintaining full auditability and data residency controls.",
     websiteUrl: "https://acoustic.com",
     alternatives: ["braze", "iterable", "customer-io"],
-    scoreBreakdown: {
-    features: 90.9,
-    reviews: 78.3,
-    momentum: 79.69999999999999,
-    popularity: 83.7,
-  },
-  userQuotes: [
-    {
-      role: "Digital Marketing Manager",
-      company: "DigitalAgency",
-      quote: "Acoustic has significantly improved our email campaign performance. The automation workflows are intuitive and the analytics provide valuable insights."
-    },
-    {
-      role: "Marketing Director",
-      company: "TechCorp",
-      quote: "We've seen a 58% increase in engagement since switching to Acoustic. The deliverability rates are excellent."
-    },
-  ],
+    isRefined: true,
+    scoreBreakdown: { features: 8.7, reviews: 7.9, momentum: 6.5, popularity: 7.2 },
+    userQuotes: [
+      {
+        role: "Chief Marketing Officer",
+        company: "Global Insurance Group",
+        quote: "Acoustic gave us the control and auditability we needed to run global campaigns without compromising on FINRA or GDPR requirements."
+      },
+    ],
   },
   {
     id: "sendfox",
