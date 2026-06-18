@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+import CookieBanner from "./components/CookieBanner";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://emailcompare.net"),
@@ -35,6 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen antialiased">
+        <CookieBanner />
         <Header />
         <main>{children}</main>
         <Footer />
