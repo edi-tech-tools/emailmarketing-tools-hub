@@ -16,6 +16,7 @@ const BLOG_SLUGS = [
     "email-subject-line-ab-testing-guide-2026",
     "email-marketing-benchmarks-2026-by-industry",
     "email-automation-workflows-best-practices-2026",
+    "email-segmentation-strategies-2026",
 ] as const;
 
 const TOOL_SLUGS = [
