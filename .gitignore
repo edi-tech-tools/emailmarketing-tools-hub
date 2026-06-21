@@ -37,3 +37,5 @@ generated_blog_content.txt
 *.pyc
 __pycache__/
 .env
+*.py
+!scripts/*.py

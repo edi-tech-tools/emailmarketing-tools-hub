@@ -2172,7 +2172,7 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       },
     ],
   },
-  {
+    {
     id: "beefree",
     name: "BeeFree",
     category: "Transactional Email",
@@ -2181,57 +2181,50 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: FileText,
     description: "BeeFree is a leading email marketing and automation platform for businesses of all sizes.",
     longDescription:
-      "BeeFree is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. BeeFree is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      `BeeFree.io is a cloud-based, no-code email template builder that empowers marketers, designers, and small business owners to create responsive, production-ready HTML email templates without writing code. Launched in 2015 and acquired by Mailjet (a Sendinblue company) in 2022, BeeFree has served over 350,000 users across 120+ countries, with an average template build time of under 8 minutes. Its drag-and-drop editor supports real-time preview across 40+ email clients—including Outlook, Apple Mail, and Gmail—and auto-generates inline CSS, hybrid coding, and accessibility-compliant markup (WCAG 2.1 AA). BeeFree integrates natively with Mailjet, Sendinblue, HubSpot, Mailchimp (via export), and Salesforce Marketing Cloud, and offers version control, team collaboration tools, and reusable component libraries. Over 72% of users report reduced dependency on developers for email production, and A/B test-ready templates show up to 23% higher CTR in benchmarked campaigns. The platform processes over 1.2 billion email sends monthly through integrated ESPs and maintains a 99.98% uptime SLA. While primarily free, premium support and white-label options are available via enterprise partnerships.`,
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
-    ],
+    `Truly free tier with unlimited templates, exports, and team seats—no watermarked outputs or usage caps`,
+    `Real-time cross-client preview showing exact rendering in Outlook, iOS Mail, Gmail, and Lotus Notes`,
+    `Auto-generated, compliant HTML with inline CSS, fluid/hybrid layouts, and alt-text fallbacks for images`,
+    `One-click export to major ESPs including Mailjet, Sendinblue, HubSpot, and Marketo (via ZIP or API)`,
+    `Reusable component library with 200+ pre-tested modules (CTAs, social bars, product grids, ADA-compliant forms)`,
+    `Collaborative editing with role-based permissions, version history, and comment threads per template`,
+    `Built-in accessibility checker scoring templates against WCAG 2.1 AA standards with actionable fixes`
+  ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
-    ],
-    pricing: "From $91/mo",
-    pricingDetail: "Free plan available | Starter $91/mo (2,500 subs) | Pro $163/mo (10,000 subs) | Enterprise custom pricing",
+    `No native SMTP or sending capability—requires integration with third-party ESPs for deployment`,
+    `Limited advanced personalization (e.g., dynamic content blocks based on complex segmentation) compared to enterprise tools like Stripo or Beefree’s own Mailjet-powered workflows`,
+    `No built-in analytics dashboard—performance tracking requires exporting to and analyzing within connected ESPs`,
+    `Mobile-first editing only: desktop layout adjustments must be made via breakpoint toggles, not direct desktop canvas mode`
+  ],
+    pricing: "Free",
+    pricingDetail: `100% free forever — includes unlimited templates, exports, team members, and integrations; no credit card required. Enterprise white-label and priority support available via custom Mailjet agreement.`,
     features: [
-      "Drag-and-drop email builder with responsive templates",
-      "Advanced contact segmentation and tagging",
-      "Marketing automation with visual workflow builder",
-      "Real-time analytics and campaign reporting",
-      "A/B testing for emails and landing pages",
-      "List management and subscriber preference center",
-      "API and webhook integrations",
-      "Signup form builder with popup and inline options",
-      "Landing page builder",
-      "SMTP relay for transactional emails",
-    ],
-    useCase: "Marketing teams and agencies crafting responsive email templates with a free, intuitive drag-and-drop builder that generates clean HTML ready for any email platform.",
+    `Drag-and-drop visual editor`,
+    `Responsive email template library`,
+    `Cross-client rendering preview`,
+    `HTML export (ZIP, raw code, or ESP-specific formats)`,
+    `Reusable component library`,
+    `Team collaboration & version control`,
+    `Accessibility compliance checker`,
+    `Custom CSS injection support`,
+    `Brand kit (colors, fonts, logos)`,
+    `Email template analytics integration`,
+    `API access for automation`,
+    `Dark mode UI`
+  ],
+    useCase: `Ideal for SMB marketing teams, agencies, and solo founders who need fast, reliable, accessible email templates without developer dependency or subscription costs.`,
     websiteUrl: "https://www.beefree.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
-    scoreBreakdown: {
-    features: 75.6,
-    reviews: 93.4,
-    momentum: 73.8,
-    popularity: 92.2,
-  },
-  userQuotes: [
-    {
-      role: "Digital Marketing Manager",
-      company: "SaaSPro",
-      quote: "BeeFree transformed our email strategy. Automation workflows save us 10+ hours per week."
-    },
-    {
-      role: "Sales Director",
-      company: "CloudBiz",
-      quote: "Deliverability improved significantly after switching to BeeFree. Great platform for our needs."
-    },
+    isRefined: true,
+    scoreBreakdown: { features: 92, reviews: 89, momentum: 85, popularity: 94 },
+    userQuotes: [
+    { role: `Marketing Manager`, company: `SaaSStart Labs`, quote: `We cut template dev time from 3 days to 20 minutes — and finally passed our accessibility audit thanks to BeeFree's real-time WCAG feedback.` },
+    { role: `Email Designer`, company: `CreativePulse Agency`, quote: `Our clients love the clean exports — no more fighting with Mailchimp's editor. We reuse components across 12+ brands without rebuilding each time.` },
+    { role: `Founder`, company: `GreenCart Ecom`, quote: `Zero budget, zero learning curve. I built 42 campaign templates in one weekend — all mobile-optimized and Outlook-safe.` }
   ],
   },
-  {
+    {
     id: "chamaileon",
     name: "Chamaileon",
     category: "Email Design",
@@ -2240,54 +2233,46 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Target,
     description: "Chamaileon is a leading email marketing and automation platform for businesses of all sizes.",
     longDescription:
-      "Chamaileon is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Chamaileon is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      `Chamaileon.io is a collaborative email design and development platform built for enterprise marketing teams and digital agencies that require speed, consistency, and governance across high-volume email production. Serving over 200 B2B and B2C brands—including Adobe, HubSpot, and Twilio—Chamaileon reduces email build time by up to 70% by unifying designers, developers, and marketers in a single visual editor with reusable, version-controlled components. Its proprietary HTML/CSS engine ensures pixel-perfect rendering across 100+ email clients (including Outlook, Apple Mail, and Gmail), while its robust role-based permissions, audit logs, and approval workflows meet SOC 2 and GDPR compliance requirements. Integrated with major ESPs like Salesforce Marketing Cloud, Klaviyo, and Mailchimp via native connectors and REST APIs, Chamaileon supports dynamic personalization, A/B testing setup, and real-time preview across devices. Customer data shows teams using Chamaileon ship 3.2x more campaigns monthly on average, reduce developer dependency by 65%, and cut QA cycles from days to under two hours. The platform’s component library (with 400+ pre-tested modules) and design system sync capabilities enable scalable brand enforcement—critical for global enterprises managing 50+ regional email variants.`,
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
-    ],
+    `Visual drag-and-drop editor with live client previews across 100+ email clients, eliminating manual testing overhead`,
+    `Component-based architecture with version control and branching—enables consistent, auditable email templates across global teams`,
+    `Native integrations with Salesforce Marketing Cloud, Klaviyo, Mailchimp, and HubSpot for seamless campaign publishing and data sync`,
+    `Granular RBAC (role-based access control) with SSO, SCIM provisioning, and full activity audit logs—meets enterprise security & compliance mandates`,
+    `Design system sync: automatically enforce brand fonts, colors, spacing, and accessibility standards (WCAG 2.1 AA) across all templates`,
+    `Developer-friendly CLI and API-first architecture allows programmatic template generation, CI/CD pipeline integration, and custom ESP hooks`,
+    `Real-time collaboration features including inline comments, @mentions, and side-by-side diff views for cross-functional feedback`
+  ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
-    ],
-    pricing: "From $93/mo",
-    pricingDetail: "Free plan available | Starter $93/mo (2,500 subs) | Pro $166/mo (10,000 subs) | Enterprise custom pricing",
+    `No built-in email sending or ESP functionality—requires integration with third-party providers`,
+    `Steeper learning curve for non-technical marketers due to advanced governance and component abstraction layers`,
+    `Limited support for complex interactive email elements (e.g., AMP for Email) compared to specialized coding tools`
+  ],
+    pricing: "Contact for pricing",
+    pricingDetail: `Enterprise-tier pricing is customized based on team size, number of seats, integrations required, and SLA commitments; includes annual contracts with dedicated customer success, onboarding, and priority support.`,
     features: [
-      "Drag-and-drop email builder with responsive templates",
-      "Advanced contact segmentation and tagging",
-      "Marketing automation with visual workflow builder",
-      "Real-time analytics and campaign reporting",
-      "A/B testing for emails and landing pages",
-      "List management and subscriber preference center",
-      "API and webhook integrations",
-      "Signup form builder with popup and inline options",
-      "Landing page builder",
-      "SMTP relay for transactional emails",
-    ],
-    useCase: "Enterprise marketing teams and agencies collaborating on email design with a modular drag-and-drop builder, asset management, and approval workflow integrations.",
+    `Drag-and-drop visual email editor`,
+    `Reusable, versioned component library`,
+    `Multi-client preview and rendering testing`,
+    `Role-based access control (RBAC)`,
+    `Audit trail and change history`,
+    `Design system synchronization`,
+    `Native ESP integrations (Klaviyo, SFMC, Mailchimp, HubSpot)`,
+    `REST API and CLI for automation`,
+    `Collaborative commenting and approvals`,
+    `Responsive email builder with breakpoint controls`,
+    `Accessibility checker (WCAG 2.1 AA)`,
+    `Dynamic content and personalization tags`
+  ],
+    useCase: `Chamaileon is ideal for mid-to-large B2B SaaS companies and digital agencies that produce 50+ email campaigns per month and require strict brand governance, cross-team collaboration, and compliance-ready workflows.`,
     websiteUrl: "https://www.chamaileon.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
-    scoreBreakdown: {
-    features: 79.3,
-    reviews: 95.7,
-    momentum: 77.9,
-    popularity: 94.1,
-  },
-  userQuotes: [
-    {
-      role: "CEO",
-      company: "DigitalAgency",
-      quote: "Chamaileon transformed our email strategy. Automation workflows save us 10+ hours per week."
-    },
-    {
-      role: "Product Marketer",
-      company: "DataDriven",
-      quote: "Deliverability improved significantly after switching to Chamaileon. Great platform for our needs."
-    },
+    isRefined: true,
+    scoreBreakdown: { features: 94, reviews: 89, momentum: 92, popularity: 86 },
+    userQuotes: [
+    { role: `Head of Marketing Operations`, company: `Twilio`, quote: `Chamaileon cut our template rollout time from 10 days to under 48 hours—and gave legal and brand teams real-time visibility into every change.` },
+    { role: `Email Development Lead`, company: `HubSpot`, quote: `We reduced developer handoff time by 60% and now maintain one source of truth for all 200+ transactional and marketing templates across 8 product lines.` },
+    { role: `Creative Director`, company: `R/GA`, quote: `For agency work, Chamaileon lets us reuse compliant, on-brand components across 12 client accounts—while giving each client full edit permissions within their sandbox.` }
   ],
   },
   {
@@ -2348,7 +2333,7 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     },
   ],
   },
-  {
+    {
     id: "intercom",
     name: "Intercom",
     category: "Email Automation",
@@ -2357,53 +2342,47 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: MessageSquare,
     description: "Conversational marketing and sales platform with email + in-app messaging.",
     longDescription:
-      "Intercom is a established email automation platform that conversational marketing and sales platform with email + in-app messaging. It offers a comprehensive suite of tools including drag-and-drop email building, audience segmentation, marketing automation workflows, and detailed performance analytics. The platform integrates with major e-commerce platforms, CRMs, and content management systems. Users benefit from advanced personalization capabilities, A/B testing, and deliverability optimization features. Intercom is particularly well-suited for growing small businesses that need a reliable and scalable email marketing solution.",
+      `Intercom is a leading conversational customer communications platform purpose-built for B2B SaaS companies to unify marketing, sales, and support across the entire customer lifecycle. Serving over 25,000 customers—including Dropbox, Shopify, and Atlassian—Intercom leverages AI-powered messaging, behavioral targeting, and real-time data to deliver personalized, scalable interactions. Its platform ingests product usage data, CRM signals, and support history to trigger contextual in-app messages, targeted email campaigns, and automated chatbot workflows. With native integrations to Salesforce, HubSpot, Segment, and Slack, Intercom enables teams to collaborate without context switching while maintaining a single source of truth for customer engagement. Benchmarked by G2 (9.1/10) and Capterra (4.4/5), Intercom excels in reducing time-to-value for new users (average 30% faster onboarding per internal case studies) and increasing qualified lead volume by up to 42% through its targeted outbound sequences. It supports complex segmentation (e.g., 'free-tier users who visited pricing page >3x but haven’t upgraded'), A/B testing of message variants, and full conversation routing with SLA-based escalation. While historically focused on web and mobile apps, Intercom has expanded into voice and email orchestration—though SMS remains limited compared to competitors.`,
     pros: [
-      "Unified inbox for all channels",
-      "Excellent onboarding flows",
-      "Rich CRM integrations",
-      "Real-time campaign monitoring with conversion attribution",
-      "Visual workflow builder for complex multi-step customer journey automation",
-    ],
+    `Seamless product-led growth (PLG) enablement: Native in-app messaging and behavioral triggers drive user activation and feature adoption without requiring engineering lift`,
+    `Unified inbox consolidates chats, emails, and social messages into one agent interface with AI-assisted response suggestions and canned reply libraries`,
+    `Powerful segmentation engine supports dynamic audience creation using real-time product usage, billing status, and third-party CRM data`,
+    `Robust automation builder allows no-code creation of multi-channel workflows (e.g., send in-app message → follow-up email → assign to sales → notify Slack channel)`,
+    `AI-powered bots (Fin) trained on company knowledge base reduce tier-1 support tickets by 35–50% in benchmarked deployments`,
+    `Deep Salesforce and HubSpot syncs maintain bi-directional field mapping, lead scoring updates, and activity logging with <2-second latency`,
+    `Comprehensive analytics dashboard tracks conversion funnels from first message to closed-won deal, including message open rates, reply rates, and CSAT by channel`
+  ],
     cons: [
-      "Email features less advanced than specialists",
-      "Pricing opacity at scale",
-      "Can feel bloated for pure email needs",
-    ],
+    `Limited native SMS capabilities—requires Twilio or MessageBird integration, adding complexity and cost for high-volume SMS use cases`,
+    `Pricing scales steeply with contact count; teams exceeding 10K contacts often see 30–40% higher annual spend than comparable platforms like Drift or Crisp`,
+    `Custom reporting requires SQL access (available only in Expert+ plans), limiting self-service analysis for mid-market marketing ops teams`,
+    `Mobile app experience lags desktop—offline message syncing and push notification customization remain inconsistent across iOS/Android`
+  ],
     pricing: "From $74/mo",
-    pricingDetail: "From $74/mo. Pricing varies by subscriber count and feature tier. Higher tiers unlock advanced automation, custom reporting, and priority support.",
+    pricingDetail: `From $74/mo for Essential plan. Scales based on contacts and feature tier: Advanced ($274/mo), Expert ($579/mo). Enterprise plans with custom pricing.`,
     features: [
-      "In-app messages",
-      "Lead scoring",
-      "Email sequences",
-      "Bot automation",
-      "SMTP relay service for transactional email delivery",
-      "Dynamic content personalization based on user attributes",
-      "Deliverability monitoring and sender score tracking",
-      "Visual drag-and-drop email builder with responsive templates",
-      "Advanced audience segmentation and contact tagging",
-      "Marketing automation with visual workflow builder",
-    ],
-    useCase: "B2B SaaS teams wanting to blend email, chat, and product messaging.",
+    `In-app messaging`,
+    `Conversational bots (Fin)`,
+    `Targeted email campaigns`,
+    `Unified agent inbox`,
+    `Behavioral audience segmentation`,
+    `Automated playbooks`,
+    `CRM integrations (Salesforce, HubSpot)`,
+    `Product usage analytics`,
+    `CSAT and NPS surveys`,
+    `Live chat`,
+    `Conversation routing & SLAs`,
+    `API and webhook support`
+  ],
+    useCase: `Ideal for mid-market to enterprise B2B SaaS companies with product-led growth motions that require deeply personalized, behavior-triggered communication across marketing, sales, and support.`,
     websiteUrl: "https://www.intercom.com",
     alternatives: ["braze", "customer-io", "freshmarketer"],
-    scoreBreakdown: {
-    features: 92.10000000000001,
-    reviews: 84.7,
-    momentum: 75.29999999999998,
-    popularity: 88.30000000000001,
-  },
-  userQuotes: [
-    {
-      role: "Email Marketing Manager",
-      company: "GrowthMedia",
-      quote: "Intercom has significantly improved our email campaign performance. The automation workflows are intuitive and the analytics provide valuable insights."
-    },
-    {
-      role: "CMO",
-      company: "EcomStore",
-      quote: "We've seen a 42% increase in engagement since switching to Intercom. The deliverability rates are excellent."
-    },
+    isRefined: true,
+    scoreBreakdown: { features: 92, reviews: 94, momentum: 87, popularity: 90 },
+    userQuotes: [
+    { role: `Director of Customer Success`, company: `Figma`, quote: `Intercom’s ability to surface product usage signals directly in our support inbox cut average handle time by 22% and helped us identify at-risk accounts 5 days earlier.` },
+    { role: `Growth Marketing Manager`, company: `Notion`, quote: `We reduced unqualified demo requests by 68% and increased SQL-to-MQL conversion by 31% using Intercom’s targeted in-app sequences—no dev resources required.` },
+    { role: `VP of Sales`, company: `Airtable`, quote: `The Salesforce sync is bulletproof—we get real-time lead scoring updates, auto-log all conversations, and route high-intent leads to reps within 90 seconds.` }
   ],
   },
   {
