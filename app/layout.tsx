@@ -6,15 +6,15 @@ import CookieBanner from "./components/CookieBanner";
 export const metadata: Metadata = {
   metadataBase: new URL("https://emailcompare.net"),
   title: {
-    default: "Email Compare — Best Email Marketing Tools Compared by PeakBureau",
-    template: "%s — Email Compare by PeakBureau",
+    default: "Email Compare — Expert Email Marketing Tool Comparisons",
+    template: "%s — Email Compare",
   },
   description:
-    "Expert email marketing tool comparisons by PeakBureau. Side-by-side reviews, pricing breakdowns, and data-driven insights from our Los Angeles team.",
+    "Expert email marketing tool comparisons. Side-by-side reviews, pricing breakdowns, and data-driven insights.",
   keywords: [
     "email marketing", "email marketing tools", "email marketing software",
     "email automation", "newsletter tools", "email campaign software",
-    "marketing automation", "CRM email tools", "PeakBureau",
+    "marketing automation", "CRM email tools",
   ],
   verification: {
     google: "T5bb4mZivi0CfaYYRiKZLSNIWmhvAX6_RVgDEyonTGo",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Email Compare by PeakBureau",
-    title: "Email Compare — Best Email Marketing Tools Compared by PeakBureau",
-    description: "Expert comparisons and reviews of email marketing tools. Side-by-side analysis, pricing, and insights from the PeakBureau team.",
+    siteName: "Email Compare",
+    title: "Email Compare — Expert Email Marketing Tool Comparisons",
+    description: "Expert comparisons and reviews of email marketing tools. Side-by-side analysis, pricing, and insights.",
   },
 };
 
@@ -98,7 +98,7 @@ function Footer() {
             </div>
             <p className="text-xs text-[#a88282] leading-relaxed">
               Data-driven email marketing tool comparisons by{' '}
-              <span className="text-[#e5c7c7]">PeakBureau</span>. Based in Los Angeles, CA.
+              <span className="text-[#e5c7c7]">Email Compare</span>. Based in Los Angeles, CA.
             </p>
           </div>
           <div>
@@ -130,11 +130,8 @@ function Footer() {
         </div>
         <div className="border-t border-[#dc2626]/10 pt-6 text-center">
           <p className="text-[10px] text-[#a88282]">
-            &copy; {new Date().getFullYear()} Email Compare by{' '}
-            <a href="https://peakbureau.com" className="text-[#dc2626] hover:underline" target="_blank" rel="noopener noreferrer">
-              PeakBureau
-            </a>
-            . All rights reserved.
+            &copy; {new Date().getFullYear()} Email Compare.
+            All rights reserved.
           </p>
         </div>
       </div>

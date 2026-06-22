@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About — PeakBureau | Email Compare",
+  title: "About — Email Compare",
   description:
-    "PeakBureau is a Los Angeles-based e-commerce specialist team of 6, delivering data-driven email marketing tool comparisons. Meet Avery Sandberg, Christian Koch, and the rest of the team.",
+    "Email Compare is a Los Angeles-based e-commerce specialist team of 6, delivering data-driven email marketing tool comparisons. Meet Avery Sandberg, Christian Koch, and the rest of the team.",
 };
 
 const TEAM = [
   {
     name: "Avery Sandberg",
     role: "CEO & Founder",
-    bio: "Avery founded PeakBureau in 2021 after a decade leading e-commerce growth at top DTC brands. She saw how hard it was for businesses to find reliable, unbiased email marketing tool information — so she built the solution. Under her leadership, PeakBureau has grown into a trusted source for data-driven email marketing comparisons.",
+    bio: "Avery founded Email Compare in 2021 after a decade leading e-commerce growth at top DTC brands. She saw how hard it was for businesses to find reliable, unbiased email marketing tool information — so she built the solution. Under her leadership, Email Compare has grown into a trusted source for data-driven email marketing comparisons.",
   },
   {
     name: "Christian Koch",
@@ -51,7 +51,7 @@ export default function AboutPage() {
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-[#fef2f2] tracking-tight mb-6">
             Meet{' '}
-            <span className="text-[#dc2626]">PeakBureau</span>
+            <span className="text-[#dc2626]">Email Compare</span>
           </h1>
           <p className="text-lg text-[#e5c7c7] leading-relaxed max-w-3xl mx-auto">
             We are a Los Angeles-based team of 6 e-commerce specialists on a mission
@@ -65,7 +65,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-[#fef2f2] mb-4">Our Story</h2>
           <div className="space-y-4 text-[#e5c7c7] leading-relaxed text-sm">
             <p>
-              PeakBureau was founded in Los Angeles in 2021 with a simple idea: 
+              Email Compare was founded in Los Angeles in 2021 with a simple idea: 
               businesses deserve better information when choosing email marketing tools.
               The review sites were full of sponsored rankings, hidden affiliate bias, 
               and outdated pricing. We knew there had to be a better way.

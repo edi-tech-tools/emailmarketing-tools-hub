@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — Email Compare by PeakBureau",
+  title: "Affiliate Disclosure — Email Compare",
   description:
-    "Email Compare by PeakBureau's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
+    "Email Compare's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
 };
 
 export default function DisclosurePage() {
@@ -26,7 +26,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">Transparency First</h2>
             <p>
-              Email Compare by PeakBureau is committed to transparency. This Affiliate Disclosure
+              Email Compare is committed to transparency. This Affiliate Disclosure
               explains how we may earn compensation through links on our website.
             </p>
           </section>
@@ -34,7 +34,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">Affiliate Links</h2>
             <p>
-              Some of the links on Email Compare by PeakBureau are affiliate links. This means that
+              Some of the links on Email Compare are affiliate links. This means that
               if you click on a link and make a purchase or sign up for a service, we may
               receive a commission at no additional cost to you.
             </p>

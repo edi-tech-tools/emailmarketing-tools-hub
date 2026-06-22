@@ -8,7 +8,7 @@ interface JsonLdProps {
 }
 
 export default function JsonLd({
-  siteName = 'Email Compare by PeakBureau',
+  siteName = 'Email Compare',
   siteUrl = 'https://emailcompare.net',
   description = 'Comprehensive email marketing directory and tool hub for modern enterprises.',
 }: JsonLdProps) {

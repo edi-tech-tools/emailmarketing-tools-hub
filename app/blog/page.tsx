@@ -4,9 +4,9 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog — Email Compare by PeakBureau",
+  title: "Blog — Email Compare",
   description:
-    "Expert email marketing tool comparisons, guides, and strategies from the PeakBureau team. Unbiased reviews and data-driven insights.",
+    "Expert email marketing tool comparisons, guides, and strategies from the Email Compare team. Unbiased reviews and data-driven insights.",
 };
 
 const CATEGORIES = Array.from(new Set(BLOG_POSTS.map((post) => post.category)));

@@ -45,7 +45,7 @@ export default function HomePage() {
 
           <p className="text-base text-[#e5c7c7] max-w-2xl mx-auto leading-relaxed">
             Side-by-side comparisons of the top email marketing platforms.
-            Unbiased reviews, real pricing data, and expert insights from the <strong className="text-[#fef2f2]">PeakBureau</strong> team.
+            Unbiased reviews, real pricing data, and expert insights from the <strong className="text-[#fef2f2]">Email Compare</strong> team.
           </p>
 
           <div className="flex justify-center gap-3 mt-8">
@@ -54,7 +54,7 @@ export default function HomePage() {
               Compare Tools
             </Link>
             <Link href="/about" className="btn-red-outline">
-              Meet PeakBureau
+              Meet Our Team
             </Link>
           </div>
 
@@ -154,7 +154,7 @@ export default function HomePage() {
 
       {/* ═══ WHY PEAKBUREAU ═══ */}
       <section className="pb-16 px-6 max-w-4xl mx-auto">
-        <p className="section-title">Why PeakBureau?</p>
+        <p className="section-title">Why Email Compare?</p>
 
         <div className="grid md:grid-cols-3 gap-4">
           <div className="card-dark text-center">

@@ -28,7 +28,7 @@ export default function ContactPage() {
           </span>
           <h1 className="text-3xl md:text-4xl font-extrabold text-[#fef2f2] tracking-tight mb-3">
             Get in Touch with{' '}
-            <span className="text-[#dc2626]">PeakBureau</span>
+            <span className="text-[#dc2626]">Email Compare</span>
           </h1>
           <p className="text-lg text-[#e5c7c7] max-w-xl mx-auto">
             Have a question about a tool comparison? Want to suggest a new tool for review?
@@ -164,7 +164,7 @@ export default function ContactPage() {
                 Location
               </h3>
               <p className="text-sm text-[#a88282] leading-relaxed">
-                PeakBureau HQ
+                Email Compare HQ
                 <br />
                 Arts District, Los Angeles
                 <br />
@@ -192,7 +192,7 @@ export default function ContactPage() {
                 Meet Our Team
               </h3>
               <p className="text-xs text-[#a88282]">
-                Learn more about the PeakBureau team.
+                Learn more about the Email Compare team.
               </p>
             </Link>
           </div>

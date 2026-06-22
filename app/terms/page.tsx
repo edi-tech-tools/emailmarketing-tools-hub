@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Email Compare by PeakBureau",
+  title: "Terms of Service — Email Compare",
   description:
-    "Terms of Service for Email Compare by PeakBureau. By using our platform, you agree to these terms governing your use of the website and services.",
+    "Terms of Service for Email Compare. By using our platform, you agree to these terms governing your use of the website and services.",
 };
 
 export default function TermsPage() {
@@ -26,7 +26,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using the Email Compare website (the "Site") by PeakBureau, you agree to be
+              By accessing or using the Email Compare website (the "Site"), you agree to be
               bound by these Terms of Service ("Terms"). If you do not agree to all of these
               Terms, you are prohibited from using the Site. We reserve the right to modify these
               Terms at any time, and your continued use constitutes acceptance of any changes.
@@ -82,7 +82,7 @@ EmailMarketingTools is a curated directory platform that provides information,
             <p className="mb-3">
               The Site and its original content, features, and functionality — including but not
               limited to the layout, design, logos, trademarks, database structure, and written
-              content — are owned by Email Compare by PeakBureau and are protected by international
+              content — are owned by Email Compare and are protected by international
               copyright, trademark, and intellectual property laws.
             </p>
             <p>
@@ -101,7 +101,7 @@ EmailMarketingTools is a curated directory platform that provides information,
             </p>
             <p className="mb-3">
               User reviews reflect the opinions of individual users and do not represent the views
-              of Email Compare by PeakBureau. We reserve the right to moderate, edit, or remove reviews
+              of Email Compare. We reserve the right to moderate, edit, or remove reviews
               that violate our content guidelines or Terms.
             </p>
             <p>
@@ -115,7 +115,7 @@ EmailMarketingTools is a curated directory platform that provides information,
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">7. Third-Party Links and Services</h2>
             <p>
               Our Site contains links to third-party websites and services that are not owned or
-              controlled by Email Compare by PeakBureau. We have no control over, and assume no
+              controlled by Email Compare. We have no control over, and assume no
               responsibility for, the content, privacy policies, or practices of any third-party
               sites. You acknowledge that we shall not be liable for any damages or losses caused
               by your use of third-party services.
@@ -130,7 +130,7 @@ EmailMarketingTools is a curated directory platform that provides information,
               vendors. We encourage users to verify pricing directly with the tool provider.
             </p>
             <p>
-              Email Compare by PeakBureau offers free access to our directory and comparison features.
+              Email Compare offers free access to our directory and comparison features.
               Premium features or advertising services may be offered at additional cost in the
               future. Any paid services will be governed by separate terms provided at the time
               of purchase.
@@ -140,7 +140,7 @@ EmailMarketingTools is a curated directory platform that provides information,
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">9. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, Email Compare by PeakBureau, its officers, directors,
+              To the fullest extent permitted by law, Email Compare, its officers, directors,
               employees, and affiliates shall not be liable for any indirect, incidental, special,
               consequential, or punitive damages arising out of or relating to your use of the
               Site. This includes, without limitation, loss of profits, data, use, or goodwill.
@@ -162,7 +162,7 @@ EmailMarketingTools is a curated directory platform that provides information,
           <section>
             <h2 className="text-xl font-bold text-[#FEF2F0] mb-3">11. Indemnification</h2>
             <p>
-              You agree to indemnify, defend, and hold harmless Email Compare by PeakBureau and its
+              You agree to indemnify, defend, and hold harmless Email Compare and its
               affiliates, officers, agents, and employees from any claims, damages, losses,
               liabilities, and expenses (including reasonable attorneys' fees) arising out of
               your use of the Site, your violation of these Terms, or your violation of any
@@ -187,7 +187,7 @@ EmailMarketingTools is a curated directory platform that provides information,
               These Terms shall be governed by and construed in accordance with the laws of the
               State of California, without regard to its conflict of law provisions. Any disputes
               arising under these Terms shall be resolved in the federal or state courts located
-              in San Francisco, California.
+              in Chicago, Illinois.
             </p>
           </section>
 

@@ -1,22 +1,25 @@
 import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
-    "spf-dkim-dmarc-email-authentication-guide",
-    "email-deliverability-optimization-tips",
-    "transactional-vs-marketing-emails",
-    "best-email-marketing-platforms-compared-2026",
-    "email-design-eye-tracking-heatmaps-2026",
-    "email-marketing-roi-benchmarks-2026",
-    "mailchimp-vs-brevo-vs-constant-contact-2026",
-    "email-marketing-automation-workflows-10-high-converting-sequences-you-can-deploy-today",
-    "mailchimp-vs-constant-contact-vs-convertkit-2026",
-    "email-list-growth-strategies-2026",
     "activecampaign-vs-mailerlite-vs-sendgrid-2026",
     "ai-powered-email-personalization-2026",
-    "email-subject-line-ab-testing-guide-2026",
-    "email-marketing-benchmarks-2026-by-industry",
+    "best-email-marketing-platforms-compared-2026",
     "email-automation-workflows-best-practices-2026",
+    "email-deliverability-optimization-tips",
+    "email-design-eye-tracking-heatmaps-2026",
+    "email-list-growth-strategies-2026",
+    "email-marketing-automation-workflows-10-high-converting-sequences-you-can-deploy-today",
+    "email-marketing-benchmarks-2026-by-industry",
+    "email-marketing-compliance-legal-requirements-2026",
+    "email-marketing-kpis-beyond-open-rates-2026",
+    "email-marketing-roi-benchmarks-2026",
     "email-segmentation-strategies-2026",
+    "email-subject-line-ab-testing-guide-2026",
+    "email-warmup-best-practices-2026",
+    "mailchimp-vs-brevo-vs-constant-contact-2026",
+    "mailchimp-vs-constant-contact-vs-convertkit-2026",
+    "spf-dkim-dmarc-email-authentication-guide",
+    "transactional-vs-marketing-emails",
 ] as const;
 
 const TOOL_SLUGS = [

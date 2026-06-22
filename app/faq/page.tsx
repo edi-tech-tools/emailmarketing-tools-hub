@@ -132,7 +132,7 @@ const FAQ_SCHEMA = {
       name: "How do email marketing reviews and ratings work?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Email marketing reviews are collected by third-party platforms like G2, Capterra, and TrustRadius. Users submit ratings (usually 1–5 stars) and written feedback based on their experience. These platforms verify reviewers, moderate for authenticity, and aggregate scores to produce overall ratings. Reviews typically cover ease of use, customer support, value for money, feature set, and deliverability. Always read recent reviews and look for patterns rather than outliers. At Email Compare by PeakBureau, we aggregate verified reviews alongside our own data-driven feature analysis to give you the full picture.",
+        text: "Email marketing reviews are collected by third-party platforms like G2, Capterra, and TrustRadius. Users submit ratings (usually 1–5 stars) and written feedback based on their experience. These platforms verify reviewers, moderate for authenticity, and aggregate scores to produce overall ratings. Reviews typically cover ease of use, customer support, value for money, feature set, and deliverability. Always read recent reviews and look for patterns rather than outliers. At Email Compare, we aggregate verified reviews alongside our own data-driven feature analysis to give you the full picture.",
       },
     },
     {
@@ -225,7 +225,7 @@ const FAQ_ITEMS = [
   {
     question: "How do email marketing reviews and ratings work?",
     answer:
-      "Email marketing reviews are collected by third-party platforms like G2, Capterra, and TrustRadius. Users submit ratings (usually 1–5 stars) and written feedback based on their experience. These platforms verify reviewers, moderate for authenticity, and aggregate scores to produce overall ratings. Reviews typically cover ease of use, customer support, value for money, feature set, and deliverability. Always read recent reviews and look for patterns rather than outliers. At Email Compare by PeakBureau, we aggregate verified reviews alongside our own data-driven feature analysis to give you the full picture.",
+      "Email marketing reviews are collected by third-party platforms like G2, Capterra, and TrustRadius. Users submit ratings (usually 1–5 stars) and written feedback based on their experience. These platforms verify reviewers, moderate for authenticity, and aggregate scores to produce overall ratings. Reviews typically cover ease of use, customer support, value for money, feature set, and deliverability. Always read recent reviews and look for patterns rather than outliers. At Email Compare, we aggregate verified reviews alongside our own data-driven feature analysis to give you the full picture.",
   },
   {
     question: "What is the future of email marketing?",
