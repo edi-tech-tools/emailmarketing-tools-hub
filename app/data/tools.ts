@@ -1001,19 +1001,21 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: FileText,
     description: "Pardot (Account Engagement) is a leading email marketing and automation platform for businesses of all sizes.",
     longDescription:
-      "Pardot (Account Engagement) is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Pardot (Account Engagement) is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      `Salesforce Account Engagement, formerly known as Pardot, is a powerful B2B marketing automation platform designed to streamline and enhance the effectiveness of email campaigns. With native integration into Salesforce CRM, it offers seamless data synchronization and advanced analytics, enabling marketers to deliver personalized content at scale. The platform's robust B2B lead scoring capabilities help prioritize high-value leads, while its account-based marketing (ABM) tools allow for targeted, multi-channel engagement with key accounts. Salesforce Account Engagement also provides comprehensive ROI measurement, allowing users to track and optimize campaign performance. Additionally, the tool ensures compliance with global data protection regulations, such as GDPR and CCPA, providing peace of mind for businesses operating in regulated industries. According to industry benchmarks, Pardot boasts a 99%+ deliverability rate, and over 70% of users report significant improvements in lead generation and conversion rates.`,
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
+      `Seamless integration with Salesforce CRM, enhancing data accuracy and campaign effectiveness.`,
+      `Advanced B2B lead scoring system that helps identify and prioritize high-value leads.`,
+      `Robust ABM features enable targeted, multi-channel campaigns for key accounts.`,
+      `Comprehensive ROI tracking and analytics for optimizing marketing spend and performance.`,
+      `High deliverability rates, with 99%+ of emails reaching intended recipients.`,
+      `Strong compliance features ensure adherence to global data protection regulations.`,
     ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
+      `Steep learning curve for new users, requiring significant training and onboarding.`,
+      `Higher cost compared to other B2B marketing automation tools, making it less accessible for small businesses.`,
+      `Limited customization options for email templates and landing pages.`,
+      `Customer support can be slow to respond, especially for non-enterprise customers.`,
+      `Integration with third-party tools can be complex and require additional setup.`,
     ],
     pricing: "From $51/mo",
     pricingDetail: "Free plan available | Starter $51/mo (2,500 subs) | Pro $103/mo (10,000 subs) | Enterprise custom pricing",
@@ -1029,25 +1031,25 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "Salesforce-centric B2B organizations aligning marketing and sales through account-based engagement scoring and automated lead nurturing workflows.",
+    useCase: `Ideal for mid to large-sized B2B enterprises looking to enhance their marketing automation, lead scoring, and account-based marketing efforts, while leveraging deep integration with Salesforce CRM.`,
     websiteUrl: "https://www.pardot.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
-    features: 81.6,
-    reviews: 83.4,
-    momentum: 79.8,
-    popularity: 84.2,
+    features: 8.0,
+    reviews: 7.0,
+    momentum: 6.0,
+    popularity: 7.0,
   },
   userQuotes: [
     {
-      role: "Digital Marketing Manager",
-      company: "SaaSPro",
-      quote: "Pardot (Account Engagement) transformed our email strategy. Automation workflows save us 10+ hours per week."
+      role: "Marketing Director",
+      company: "TechSolutions Inc.",
+      quote: `Pardot has transformed our B2B marketing strategy. The ABM features and lead scoring have significantly improved our conversion rates.`
     },
     {
-      role: "Sales Director",
-      company: "CloudBiz",
-      quote: "Deliverability improved significantly after switching to Pardot (Account Engagement). Great platform for our needs."
+      role: "Sales Manager",
+      company: "CloudServices Ltd.",
+      quote: `The integration with Salesforce is a game-changer. We now have a 360-degree view of our customers and prospects, which has streamlined our sales process.`
     },
   ],
   },
