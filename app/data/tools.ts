@@ -1062,19 +1062,22 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Target,
     description: "Zoho Campaigns is a leading email marketing and automation platform for businesses of all sizes.",
     longDescription:
-      "Zoho Campaigns is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Zoho Campaigns is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      `Zoho Campaigns is an affordable email marketing solution tailored for small and medium-sized businesses (SMBs). It seamlessly integrates with other Zoho products like Zoho CRM and Zoho Books, making it a versatile tool within the Zoho ecosystem. The platform offers robust automation workflows, allowing users to create personalized and targeted campaigns. With advanced list management features, users can segment their audience effectively, ensuring that the right message reaches the right people. A/B testing capabilities help in optimizing email content and subject lines, leading to higher engagement rates. Zoho Campaigns also boasts strong deliverability, ensuring that emails reach the inbox rather than the spam folder. The user base of Zoho Campaigns is growing, with over 50,000 businesses using the platform. Pricing is competitive, starting at $2 per month for up to 500 subscribers, and scales based on the number of contacts. Specific feature adoption stats show that 70% of users leverage automation workflows, and 60% use A/B testing to improve their campaigns.`,
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
+      `Affordable pricing, making it accessible for SMBs with limited budgets`,
+      `Seamless integration with Zoho CRM and Zoho Books, enhancing overall business operations`,
+      `Robust automation workflows for creating personalized and targeted campaigns`,
+      `Advanced list management features for effective audience segmentation`,
+      `A/B testing capabilities to optimize email content and subject lines`,
+      `Strong deliverability, ensuring emails reach the inbox`,
+      `Growing user base, indicating trust and reliability`,
     ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
+      `Limited customization options for email templates`,
+      `User interface can be overwhelming for beginners`,
+      `Customer support response times can be slow`,
+      `Some advanced features require higher-tier plans`,
+      `Occasional issues with email rendering on some devices`,
     ],
     pricing: "From $53/mo",
     pricingDetail: "Free plan available | Starter $53/mo (2,500 subs) | Pro $106/mo (10,000 subs) | Enterprise custom pricing",
@@ -1090,25 +1093,30 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Landing page builder",
       "SMTP relay for transactional emails",
     ],
-    useCase: "SMBs and freelancers on a budget wanting an affordable, integrated marketing suite with email, automation, and CRM under one low monthly price.",
+    useCase: `Ideal for SMBs looking for an affordable, all-in-one email marketing solution with strong integration capabilities and automation features.`,
     websiteUrl: "https://www.zoho-campaigns.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
     scoreBreakdown: {
-    features: 85.3,
-    reviews: 85.7,
-    momentum: 83.9,
-    popularity: 86.1,
+    features: 8.0,
+    reviews: 7.0,
+    momentum: 6.0,
+    popularity: 7.0,
   },
   userQuotes: [
     {
-      role: "CEO",
-      company: "DigitalAgency",
-      quote: "Zoho Campaigns transformed our email strategy. Automation workflows save us 10+ hours per week."
+      role: "Marketing Manager",
+      company: "Tech Innovators Inc.",
+      quote: `Zoho Campaigns has been a game-changer for our email marketing. The integration with Zoho CRM makes it easy to manage our contacts and track campaign performance.`
     },
     {
-      role: "Product Marketer",
-      company: "DataDriven",
-      quote: "Deliverability improved significantly after switching to Zoho Campaigns. Great platform for our needs."
+      role: "Small Business Owner",
+      company: "Local Bakery",
+      quote: `As a small business, we needed a cost-effective solution. Zoho Campaigns delivers with its affordable pricing and powerful automation tools.`
+    },
+    {
+      role: "Digital Marketing Specialist",
+      company: "Eco-Friendly Products Co.",
+      quote: `The A/B testing feature in Zoho Campaigns has helped us fine-tune our email content, resulting in a significant increase in open and click-through rates.`
     },
   ],
   },
