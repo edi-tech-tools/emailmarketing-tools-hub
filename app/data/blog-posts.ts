@@ -1932,7 +1932,7 @@ That balance isn’t found in spreadsheets alone. It’s found in watching sessi
 
 Start there. Test relentlessly. Document everything. And remember: in an age of infinite choice, your price isn’t just a transaction—it’s your most powerful, silent salesperson.
 
-*Ready to audit your pricing? StorePicks’ free 2026 Pricing Health Score tool analyzes 27 strategic and technical factors—from anchor placement to dynamic rule coverage—and delivers a prioritized action plan. Get yours at storepicks.net/pricing-audit.*
+*Ready to take your email subject lines to the next level? Download our free 2026 Email Subject Line Benchmark Report — packed with open-rate data across 14 industries, proven frameworks, and actionable templates you can deploy today. Start optimizing your campaigns now at your site's resources section.*
 `,
     author: "Sofia Reyes",
     authorRole: "Content Director at Email Compare",
