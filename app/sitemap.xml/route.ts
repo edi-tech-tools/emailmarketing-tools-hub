@@ -20,6 +20,7 @@ const BLOG_SLUGS = [
     "mailchimp-vs-constant-contact-vs-convertkit-2026",
     "spf-dkim-dmarc-email-authentication-guide",
     "transactional-vs-marketing-emails",
+    "daily-update-d-2026-06-24-email-marketing-ab-testing-strategies",
 ] as const;
 
 const TOOL_SLUGS = [
