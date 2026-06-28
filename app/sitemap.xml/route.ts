@@ -21,6 +21,7 @@ const BLOG_SLUGS = [
     "spf-dkim-dmarc-email-authentication-guide",
     "transactional-vs-marketing-emails",
     "daily-update-d-2026-06-24-email-marketing-ab-testing-strategies",
+    "email-marketing-kpis-metrics-2026",
 ] as const;
 
 const TOOL_SLUGS = [
