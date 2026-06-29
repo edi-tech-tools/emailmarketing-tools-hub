@@ -39,3 +39,4 @@ __pycache__/
 .env
 *.py
 !scripts/*.py
+.next_old/
