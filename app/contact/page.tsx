@@ -137,22 +137,22 @@ export default function ContactPage() {
                 <p className="text-sm text-[#a88282]">
                   <strong className="text-[#e5c7c7]">General:</strong>
                   <br />
-                  <a href="mailto:hello@peakbureau.com" className="text-[#dc2626] hover:underline">
-                    hello@peakbureau.com
+                  <a href="mailto:info@emailcompare.net" className="text-[#dc2626] hover:underline">
+                    info@emailcompare.net
                   </a>
                 </p>
                 <p className="text-sm text-[#a88282]">
                   <strong className="text-[#e5c7c7]">Tool Suggestions:</strong>
                   <br />
-                  <a href="mailto:tools@peakbureau.com" className="text-[#dc2626] hover:underline">
-                    tools@peakbureau.com
+                  <a href="mailto:info@emailcompare.net" className="text-[#dc2626] hover:underline">
+                    info@emailcompare.net
                   </a>
                 </p>
                 <p className="text-sm text-[#a88282]">
                   <strong className="text-[#e5c7c7]">Press:</strong>
                   <br />
-                  <a href="mailto:press@peakbureau.com" className="text-[#dc2626] hover:underline">
-                    press@peakbureau.com
+                  <a href="mailto:info@emailcompare.net" className="text-[#dc2626] hover:underline">
+                    info@emailcompare.net
                   </a>
                 </p>
               </div>

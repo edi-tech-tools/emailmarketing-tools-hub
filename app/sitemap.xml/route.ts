@@ -23,6 +23,7 @@ const BLOG_SLUGS = [
     "daily-update-d-2026-06-24-email-marketing-ab-testing-strategies",
     "email-list-hygiene-database-cleaning-2026",
     "email-marketing-kpis-metrics-2026",
+    "email-automation-workflows-2026-high-converting-sequences",
 ] as const;
 
 const TOOL_SLUGS = [
