@@ -4260,5 +4260,187 @@ Thanks for reading---and here's to building workflows that convert, retain, and 
     readTime: 10,
     tags: ["email-automation", "email-marketing", "email-workflows", "email-campaigns", "abandoned-cart", "lead-nurturing"],
   },
+{
+    slug: "email-deliverability-optimization-2026-dmarc-spf-dkim",
+    title: "Email Deliverability in 2026: A Practical Guide to SPF, DKIM, DMARC, and Beyond",
+    excerpt: "Email deliverability is not just about avoiding the spam folder; it's about building a technical foundation that signals trust to ISPs. We walk through the practical steps for configuring SPF, DKIM, and DMARC, plus tips for maintaining sender reputation.",
+    content: `# Email Deliverability in 2026: A Practical Guide to SPF, DKIM, DMARC, and Beyond
+
+*Email deliverability is not just about avoiding the spam folder; it's about building a technical foundation that signals trust to ISPs. We walk through the practical steps for configuring SPF, DKIM, and DMARC, plus tips for maintaining sender reputation.*
+
+---
+
+## Why Deliverability Is the Most Underrated Metric
+
+We have spent years managing email campaigns for clients of all sizes, and one truth stands out: **you can have the best-designed email and the most compelling copy in the world, but if it doesn't land in the inbox, none of it matters.**
+
+Open rates, click-through rates, conversion rates---every metric you track downstream of delivery is completely dependent on deliverability. And deliverability in 2026 is harder than ever. ISPs like Gmail and Outlook have tightened their filters. Spam complaints are more aggressively penalized. And the technical bar for authentication keeps rising.
+
+In our experience working with hundreds of senders, we've found that the single biggest predictor of long-term deliverability health is proper email authentication. Let's break down exactly what that means, step by step.
+
+---
+
+## The Three Pillars: SPF, DKIM, and DMARC
+
+### 1. SPF (Sender Policy Framework)
+
+SPF is the simplest of the three authentication standards. It lets you specify exactly which IP addresses are authorized to send email on behalf of your domain.
+
+**How we check it:**
+
+\`\`\`
+nslookup -type=TXT yourdomain.com
+\`\`\`
+
+Look for a line starting with \`v=spf1\`. A minimal SPF record looks like this:
+
+\`\`\`
+v=spf1 include:_spf.google.com include:sendgrid.net ~all
+\`\`\`
+
+**Common mistakes we see:**
+
+- Forgetting to include all sending services (e.g., adding a new email provider without updating SPF)
+- Using \`+all\` or missing the catch-all mechanism entirely
+- Hitting the 10-lookup DNS limit (SPF is capped at 10 DNS lookups)
+
+**Our recommendation:** Audit your SPF record quarterly. Every time you change email providers or add a new sending tool, update SPF first.
+
+### 2. DKIM (DomainKeys Identified Mail)
+
+DKIM adds a cryptographic signature to each email, allowing the receiving server to verify that the message was not tampered with in transit and genuinely came from your domain.
+
+Most email marketing platforms provide a DKIM key that you add as a DNS TXT record. The selector varies by provider---Mailchimp uses \`k1._domainkey\`, Brevo uses \`brevo._domainkey\`, SendGrid uses \`s1._domainkey\`.
+
+**Key advice from our experience:**
+
+- Enable DKIM signing **for all transactional and marketing emails**, not just one stream
+- Use a 2048-bit key where supported (some older providers still default to 1024)
+- Monitor DKIM pass rates in your email analytics dashboard weekly
+- If you use multiple sending domains, each needs its own DKIM key
+
+### 3. DMARC (Domain-based Message Authentication, Reporting, and Conformance)
+
+DMARC ties SPF and DKIM together and tells ISPs what to do when authentication fails. It also sends you reports so you can see who is sending email on your behalf.
+
+**DMARC policy levels (in order of strictness):**
+
+- \`p=none\` --- Monitor only; no action taken on failures
+- \`p=quarantine\` --- Send failures to spam
+- \`p=reject\` --- Reject failures outright (most secure)
+
+**Our recommended rollout plan:**
+
+1. Start with \`p=none\` and collect DMARC aggregate reports for 2-4 weeks
+2. Analyze reports to identify all legitimate senders
+3. Add any missing senders to your SPF record and ensure DKIM is configured
+4. Move to \`p=quarantine\` for another 2 weeks
+5. Once you are confident all legitimate mail authenticates, move to \`p=reject\`
+
+A full DMARC record with reporting looks like:
+
+\`\`\`
+v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@yourdomain.com; ruf=mailto:dmarc-forensics@yourdomain.com; pct=100;
+\`\`\`
+
+---
+
+## Beyond Authentication: What Actually Matters for Deliverability
+
+Authentication is the foundation, but it's not the whole story. Here are the other factors we watch closely.
+
+### Sender Reputation
+
+ISPs assign each sending IP a reputation score based on:
+- Complaint rate (ideally below 0.1%)
+- Bounce rate (hard bounces under 2%)
+- Spam trap hits (should be zero)
+- Engagement (opens, clicks, replies)
+
+**What we do operationally:** Set up a weekly deliverability dashboard monitoring these four metrics. Any spike triggers an immediate review of the most recent campaign's list quality and content.
+
+### List Hygiene
+
+We have seen senders with perfect authentication still land in spam because their list was stale. Regular list cleaning is non-negotiable:
+
+- Remove hard bounces immediately
+- Suppress inactive subscribers after 90 days of no engagement
+- Run email validation on all new signups (we use services like ZeroBounce or NeverBounce)
+- Implement a sunset policy for subscribers who haven't opened in 6 months
+
+### Warm-Up for New IPs
+
+If you are sending from a new IP address or a new domain, you must warm it up gradually. ISPs trust IPs with a consistent, growing sending history.
+
+**Our warm-up schedule:**
+
+- Week 1: Send to most engaged 5% of list (last 30 days openers)
+- Week 2: Increase to 10%
+- Week 3: Increase to 20%
+- Week 4: Increase to 40%
+- Week 5+: Gradually scale to full list
+
+Monitor bounce and complaint rates at every step. If they spike, pause and diagnose before continuing.
+
+---
+
+## Common Deliverability Pitfalls We See in 2026
+
+### Too Many Links
+
+ISPs flag emails with an unusually high link-to-text ratio. If your email is more links than copy, that is a red flag. We aim for no more than 3-4 prominent links per email, plus a text-only unsubscribe link.
+
+### Spammy Trigger Words
+
+While ISPs have moved beyond simple keyword filtering, certain phrases still correlate with spam complaints: "free," "guaranteed," "act now," "limited time," and excessive exclamation marks. Use them sparingly.
+
+### Low Engagement
+
+ISPs pay close attention to how recipients interact with your mail. If open rates drop below 15% for a sustained period, ISPs may start routing your mail to spam---even with perfect authentication.
+
+**We counter this by:** Segmenting aggressively, re-engaging dormant subscribers, and suppressing those who don't respond.
+
+### Sending from a Subdomain with No Reputation
+
+If you use a subdomain like \`marketing.yourdomain.com\`, it inherits the reputation of the root domain---but only partially. New subdomains still need to build their own reputation. We recommend sending marketing emails from a dedicated subdomain and warming it up separately.
+
+---
+
+## Tools We Use to Monitor Deliverability
+
+Here are the tools we rely on in our daily workflow:
+
+- **MXToolbox** --- Quick DNS lookups for SPF, DKIM, and DMARC validation
+- **Google Postmaster Tools** --- Free deliverability data from Gmail, the largest mailbox provider
+- **Microsoft SNDS** --- Similar reporting for Outlook.com and Hotmail
+- **GlockApps** --- Inbox placement testing across major ISPs (we run this monthly)
+- **Validity (formerly 250ok)** --- Enterprise-grade deliverability monitoring and analytics
+- **EasyDMARC** --- DMARC report parsing and visualization (the free tier covers one domain)
+
+---
+
+## Putting It All Together
+
+Deliverability is not a one-time setup; it is an ongoing practice. Here is our monthly checklist:
+
+1. Review DMARC aggregate reports for unauthorized senders
+2. Check SPF record includes all current sending services
+3. Verify DKIM signatures are passing (aim for 99.5%+ pass rate)
+4. Monitor complaint rate (keep under 0.08% if possible)
+5. Remove inactive subscribers (no engagement in 60+ days)
+6. Test inbox placement with a seed list
+7. Review any new IP or domain warm-up progress
+
+Authentication --- SPF, DKIM, and DMARC --- is the table stakes. If you haven't implemented all three, start today. If you have them in place, focus on the operational habits---list hygiene, engagement monitoring, and warm-up discipline---that separate healthy senders from those who struggle.
+
+In our experience, the senders who invest in deliverability as an ongoing practice---not a checkbox---consistently achieve inbox placement rates above 97%. It takes effort, but the ROI is clear: every email that lands in the inbox is an email that can drive a result.`,
+
+    author: "EDI Team",
+    authorRole: "Email Marketing Analyst at Email Compare",
+    date: "2026-06-30",
+    category: "email-marketing",
+    readTime: 8,
+    tags: ["email-deliverability", "spf-dkim-dmarc", "email-authentication", "sender-reputation", "email-marketing", "email-compliance", "inbox-placement", "email-hygiene"],
+  },
 
 ];
