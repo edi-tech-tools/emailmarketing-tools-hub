@@ -30,6 +30,7 @@ const BLOG_SLUGS = [
     "spf-dkim-dmarc-email-authentication-guide",
     "transactional-email-api-comparison-2026",
     "transactional-vs-marketing-emails",
+    "email-proofreading-copy-optimization-tools-2026",
 ] as const;
 
 const TOOL_SLUGS = [
