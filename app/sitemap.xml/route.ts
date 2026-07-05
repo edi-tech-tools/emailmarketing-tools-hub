@@ -31,6 +31,7 @@ const BLOG_SLUGS = [
     "transactional-email-api-comparison-2026",
     "transactional-vs-marketing-emails",
     "email-proofreading-copy-optimization-tools-2026",
+    "cold-email-outreach-tools-strategies-2026",
 ] as const;
 
 const TOOL_SLUGS = [
