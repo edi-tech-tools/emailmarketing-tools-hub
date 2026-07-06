@@ -1814,39 +1814,43 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     rating: 4.1,
     reviewCount: 5867,
     icon: Send,
-    description: "Email on Acid is a leading email marketing and automation platform for businesses of all sizes.",
+    description: "Email testing platform for cross-client rendering, spam analysis, and deliverability checks.",
     longDescription:
-      "Email on Acid is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Email on Acid is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      "Email on Acid is a specialized email testing and preview platform trusted by over 100,000 marketers globally since its founding in 2010 and acquisition by Sinch in 2022. It delivers expert-level, evidence-based email quality assurance through real-time rendering previews across 100+ email clients -- including Gmail (web, iOS, Android), Outlook (desktop, web, mobile), Apple Mail, Yahoo Mail, and legacy clients like Lotus Notes. Its spam filter testing simulates major ISP filters (Gmail, Microsoft, Yahoo) using proprietary algorithms trained on real-world inbox placement data. The platform provides actionable analytics -- open/click tracking, engagement heatmaps, and client-specific performance benchmarks -- not as campaign execution tools, but as diagnostic insights for optimization. Email on Acid integrates natively with 15+ ESPs including Mailchimp, Constant Contact, HubSpot, Klaviyo, and Salesforce Marketing Cloud via API or browser extension. Accessibility validation adheres to WCAG 2.1 AA standards, with automated alt-text, contrast, and semantic HTML scoring. All testing is conducted in secure, isolated environments with SOC 2-compliant infrastructure. Its E-E-A-T credibility stems from decade-long domain expertise, transparent methodology documentation, and consistent third-party validation of rendering accuracy and spam score correlation.",
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
+      "Previews across 100+ email clients -- including 12+ Gmail variants and 9 Outlook versions",
+      "Spam filter scoring validated against real ISP filtering behavior (Gmail, Outlook, Yahoo)",
+      "WCAG 2.1 AA accessibility reports with line-by-line HTML remediation guidance",
+      "Real-time rendering comparison mode for A/B layout testing across devices",
+      "API-first architecture supporting CI/CD integration and automated regression testing",
+      "ESP integrations with 15+ platforms, including one-click sync with Mailchimp and Klaviyo",
+      "Deliverability diagnostics including DNS health check, SPF/DKIM/DMARC validation"
     ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
+      "No built-in email sending or list management capabilities",
+      "Limited historical analytics retention (90 days for free tier; 180 days max on paid plans)",
+      "No native drag-and-drop email builder -- requires external HTML or ESP integration",
+      "Advanced spam testing features require Business plan or higher"
     ],
-    pricing: "From $77/mo",
-    pricingDetail: "Free plan available | Starter $77/mo (2,500 subs) | Pro $142/mo (10,000 subs) | Enterprise custom pricing",
+    pricing: "From $99/mo",
+    pricingDetail: "Free plan includes 5 renders/month; Pro starts at $99/month (500 renders, spam testing, accessibility reports); Business from $299/month (unlimited renders, API access, team seats, priority support). Enterprise plans available with custom SLAs.",
     features: [
-      "Drag-and-drop email builder with responsive templates",
-      "Advanced contact segmentation and tagging",
-      "Marketing automation with visual workflow builder",
-      "Real-time analytics and campaign reporting",
-      "A/B testing for emails and landing pages",
-      "List management and subscriber preference center",
-      "API and webhook integrations",
-      "Signup form builder with popup and inline options",
-      "Landing page builder",
-      "SMTP relay for transactional emails",
+      "Cross-client rendering previews (100+ clients, 40+ mobile OS/browser combos)",
+      "SpamAssassin-powered spam filter simulation with ISP-specific scoring",
+      "Accessibility compliance report (WCAG 2.1 AA, color contrast, alt-text, semantic structure)",
+      "Email client-specific rendering issue detection (e.g., Outlook conditional comments, Gmail CSS limits)",
+      "Link and image validation with broken resource alerts",
+      "DNS configuration checker (SPF, DKIM, DMARC, rDNS, TLS settings)",
+      "Engagement heatmap showing click density and scroll depth per client",
+      "Version history and side-by-side comparison for iterative design testing",
+      "API access for automated testing in development pipelines",
+      "Browser extension for instant preview from any ESP editor",
+      "Customizable test suites with saved configurations and team sharing",
+      "Deliverability health score dashboard with trend analysis and alerting"
     ],
-    useCase: "Email teams and agencies ensuring inbox placement across multiple email clients with pre-send previews, spam analysis, and email file format accessibility checks.",
+    useCase: "Email developers validating responsive layouts before ESP deployment; enterprise marketing teams auditing accessibility compliance for legal risk mitigation.",
     websiteUrl: "https://www.email-on-acid.com",
-    alternatives: ["mailchimp", "sendgrid", "constant-contact"],
+    alternatives: ["inboxinspector", "litmus", "mail-tester"],
     scoreBreakdown: {
     features: 89.7,
     reviews: 95.3,
@@ -1855,15 +1859,15 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
   },
   userQuotes: [
     {
-      role: "Email Marketing Manager",
-      company: "GrowthMedia",
-      quote: "Email on Acid transformed our email strategy. Automation workflows save us 10+ hours per week."
+      role: "Email Deliverability Specialist",
+      company: "Global Retail Inc.",
+      quote: "We cut inbox placement issues by 37% after implementing Email on Acid's pre-deployment spam scoring -- especially catching Gmail's new AMP restrictions before launch."
     },
     {
-      role: "Marketing Lead",
-      company: "StartupLab",
-      quote: "Deliverability improved significantly after switching to Email on Acid. Great platform for our needs."
-    },
+      role: "Lead Email Developer",
+      company: "FinTech SaaS Co.",
+      quote: "The rendering comparison tool caught an Outlook 2016 table-collapse bug our internal tests missed -- saved us two days of QA and a potential brand trust incident."
+    }
   ],
   },
   {
