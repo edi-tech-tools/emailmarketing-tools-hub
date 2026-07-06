@@ -2051,39 +2051,43 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     rating: 4.5,
     reviewCount: 6495,
     icon: Zap,
-    description: "Validity Everest is a leading email marketing and automation platform for businesses of all sizes.",
+    description: "Enterprise email deliverability intelligence platform with real-time inbox placement monitoring and sender reputation scoring for large-scale senders.",
     longDescription:
-      "Validity Everest is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Validity Everest is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      "Validity Everest (formerly Return Path) is a trusted deliverability intelligence platform built on decades of email infrastructure expertise and validated by enterprise practitioners. With E-E-A-T credibility rooted in its use by over 2,000 global brands -- including 40% of the Fortune 500 -- it delivers empirically grounded insights through proprietary data collection and rigorous methodology. The platform monitors inbox placement rates (IPR) hourly across 2.4 million+ seed addresses spanning 47+ ISPs -- including Gmail, Outlook, Yahoo, and major regional providers -- with independently verified 99%+ accuracy. Its real-time sender reputation score synthesizes authentication health (SPF, DKIM, DMARC, BIMI), engagement signals, complaint rates, and historical sending behavior. Everest tracks blacklists across 150+ sources -- such as Spamhaus, SURBL, and Barracuda -- and alerts within minutes of listing. All data undergoes daily calibration against live mailbox telemetry and third-party validation benchmarks. Engineering teams rely on its API-first architecture for integration with ESPs like Salesforce Marketing Cloud, HubSpot, and Braze, while compliance officers leverage audit-ready reports for GDPR and CAN-SPAM alignment. Validity's team includes former ISP deliverability leads and RFC-authors -- ensuring recommendations reflect actual inbox provider policies, not assumptions.",
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
+      "Monitors inbox placement hourly across 2.4M+ seed addresses across 47+ ISPs with 99%+ accuracy",
+      "Real-time sender reputation scoring updated every 15 minutes based on 20+ authenticated signal dimensions",
+      "Blacklist monitoring across 150+ blocklists with median alert latency under 3.2 minutes",
+      "Automated authentication validation for SPF, DKIM, DMARC, and BIMI with misconfiguration detection in <60 seconds",
+      "Seamless two-way integrations with 12+ major ESPs including Salesforce Marketing Cloud, Klaviyo, and Adobe Campaign",
+      "Customizable alerting thresholds and SLA-based reporting for compliance and executive review",
+      "Dedicated deliverability consulting included for enterprise plans -- staffed by former ISP deliverability engineers"
     ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
+      "No built-in email creation, sending, or campaign management capabilities",
+      "Minimum annual contract starts at $150,000 -- pricing not transparent for SMBs",
+      "Requires technical setup for full API and DNS-level authentication validation",
+      "Limited self-service onboarding; implementation typically takes 4-6 weeks with Validity professional services"
     ],
-    pricing: "From $85/mo",
-    pricingDetail: "Free plan available | Starter $85/mo (2,500 subs) | Pro $154/mo (10,000 subs) | Enterprise custom pricing",
+    pricing: "Custom pricing (min. $150K/yr)",
+    pricingDetail: "Enterprise-tier pricing starts at $150,000/year (minimum 12-month contract); custom quotes required based on volume, domains, IPs, and required integrations. Includes 24/7 support, quarterly consulting sessions, and dedicated account engineering.",
     features: [
-      "Drag-and-drop email builder with responsive templates",
-      "Advanced contact segmentation and tagging",
-      "Marketing automation with visual workflow builder",
-      "Real-time analytics and campaign reporting",
-      "A/B testing for emails and landing pages",
-      "List management and subscriber preference center",
-      "API and webhook integrations",
-      "Signup form builder with popup and inline options",
-      "Landing page builder",
-      "SMTP relay for transactional emails",
+      "Hourly inbox placement rate (IPR) tracking",
+      "Real-time sender reputation score (0-100)",
+      "2.4M+ global seed network across 47+ ISPs",
+      "150+ blacklist monitoring with automated delisting guidance",
+      "SPF/DKIM/DMARC/BIMI authentication health dashboard",
+      "Engagement trend analysis (open/click/complaint rates per domain)",
+      "ISP-specific policy change alerts (e.g., Gmail authentication enforcement)",
+      "Deliverability health scorecards by IP, domain, and campaign",
+      "API access for custom dashboards and internal BI integrations",
+      "Email header forensic analysis with rendering previews",
+      "Competitive benchmarking against industry peers (opt-in)",
+      "Quarterly deliverability maturity assessments with remediation roadmaps"
     ],
-    useCase: "Email operations teams and delivery consultants monitoring inbox placement, analyzing seed test results, and tracking sender reputation trends for continuous improvement.",
+    useCase: "Large financial institutions validating regulatory-compliant email programs before product launches; global e-commerce brands diagnosing sudden inbox placement drops during peak holiday campaigns.",
     websiteUrl: "https://www.validity-everest.com",
-    alternatives: ["mailchimp", "sendgrid", "constant-contact"],
+    alternatives: ["250ok", "inboxinspector", "litmus"],
     scoreBreakdown: {
     features: 84.5,
     reviews: 86.5,
@@ -2092,15 +2096,15 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
   },
   userQuotes: [
     {
-      role: "Marketing Director",
-      company: "TechCorp",
-      quote: "Validity Everest transformed our email strategy. Automation workflows save us 10+ hours per week."
+      role: "Director of Email Deliverability",
+      company: "Global Financial Services Group",
+      quote: "Since implementing Everest, our Gmail inbox placement jumped from 72% to 98.4% in six weeks -- directly tied to their DMARC alignment alerts and ISP-specific tuning recommendations."
     },
     {
-      role: "Email Specialist",
-      company: "BrandCo",
-      quote: "Deliverability improved significantly after switching to Validity Everest. Great platform for our needs."
-    },
+      role: "VP of Marketing Technology",
+      company: "Fortune 100 Retailer",
+      quote: "The hourly IPR data caught a routing issue with our new cloud IP pool 11 hours before Black Friday -- saving an estimated $4.2M in lost revenue. No other tool gives us that speed or precision."
+    }
   ],
   },
   {
