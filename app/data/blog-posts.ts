@@ -4014,7 +4014,7 @@ Think of List CPR as emergency resuscitation for at-risk segments--combining val
   5. Log all actions in central audit log (required for CPRA Article 17.1)  
 
 - **Tool note**: Mailchimp's new "List Revival Automation" (v12.1, April 2026) builds this workflow in <4 minutes--no scripting needed.  
-- **Result**: B2B SaaS *TechNova* ran List CPR on 217,000 subscribers; recovered 18.3% as active, suppressed 31.2% as high-risk, and lifted campaign ROI by 40.6% in Q2 2026.
+- **Result**: SaaS platform *TechNova* ran List CPR on 217,000 subscribers; recovered 18.3% as active, suppressed 31.2% as high-risk, and lifted campaign ROI by 40.6% in Q2 2026.
 
 ---
 
@@ -4760,7 +4760,7 @@ Visit emailcompare.net today--and build campaigns that don't just land in the in
 
 ## Introduction
 
-I've spent the last 18 months testing, building, and breaking email automation workflows across seven platforms -- from solo-founder tools to enterprise-grade suites. I ran real campaigns for three different businesses: a $450k/year Shopify store, a B2B SaaS with 12,000 leads, and a local service business with 3,200 subscribers. In that time, I sent over 4.7 million emails, built 89 distinct workflows, and tracked every open, click, conversion, and unsubscribe. This guide isn't theory -- it's what worked, what failed, and what actually moved revenue in 2026.
+I've spent the last 18 months testing, building, and breaking email automation workflows across seven platforms -- from solo-founder tools to enterprise-grade suites. I ran real campaigns for three different businesses: a $450k/year Shopify store, a SaaS startup with 12,000 leads, and a local service business with 3,200 subscribers. In that time, I sent over 4.7 million emails, built 89 distinct workflows, and tracked every open, click, conversion, and unsubscribe. This guide isn't theory -- it's what worked, what failed, and what actually moved revenue in 2026.
 
 ## What Changed in Email Automation in 2026
 
