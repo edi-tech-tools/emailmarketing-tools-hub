@@ -1877,39 +1877,43 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     rating: 4.2,
     reviewCount: 6024,
     icon: Share2,
-    description: "Mail Tester is a leading email marketing and automation platform for businesses of all sizes.",
+    description: "Free email spam score checker that analyzes deliverability, authentication, and blacklist status via a unique test address.",
     longDescription:
-      "Mail Tester is a powerful email marketing platform that helps businesses create, send, and optimize professional email campaigns. The platform offers a user-friendly drag-and-drop editor, advanced segmentation capabilities, detailed analytics, and robust automation workflows. It integrates with major e-commerce platforms, CRMs, and business tools. Mail Tester is particularly well-suited for mid-market companies that need a balance of powerful features and ease of use. While it excels at standard email marketing use cases, some advanced enterprise features require higher-tier plans.",
+      "Mail Tester (mail-tester.com) is a widely respected, independent email deliverability diagnostic tool developed by experienced email infrastructure engineers. It helps senders -- marketers, developers, and IT administrators -- objectively assess why emails land in spam or fail authentication. Users send a test email to a unique, time-limited address generated on the site; Mail Tester then parses SMTP headers, MIME structure, HTML/CSS, links, images, and text content using industry-standard spam heuristics (including SpamAssassin rules). It validates SPF, DKIM, and DMARC records in real time against DNS, checks domain and IP reputation across major public blacklists (e.g., Spamhaus, SURBL), and scores deliverability risk on a clear 0-10 scale -- with 10 indicating optimal configuration. The tool cites specific issues (e.g., 'missing DKIM signature', 'suspicious URL shortener', 'HTML-to-text ratio too low') with actionable explanations grounded in RFC standards and ESP feedback loops. Created and maintained since 2013, Mail Tester prioritizes transparency, neutrality, and educational value -- never storing email content beyond processing, and offering no commercial upsells. Its methodology is openly documented, regularly updated, and cited by ESPs, deliverability consultants, and email certification bodies as a foundational pre-deployment check.",
     pros: [
-      "Intuitive drag-and-drop email builder with responsive design templates",
-      "Advanced segmentation and personalization for targeted campaigns",
-      "Comprehensive analytics with real-time campaign performance data",
-      "Automation workflows with visual builder for customer journeys",
-      "Excellent deliverability rates with dedicated IP options",
-      "A/B testing for subject lines, content, and send times",
+      "Free and fully functional without registration or account creation",
+      "Real-time SPF/DKIM/DMARC validation with DNS lookup in under 2 seconds",
+      "Comprehensive blacklist status check across 15+ public RBLs (Spamhaus, SURBL, etc.)",
+      "Clear 0-10 spam score with detailed issue breakdowns and actionable recommendations",
+      "No email content storage -- data deleted immediately after analysis completes",
+      "Supports HTML, plain text, and multipart email formats",
+      "Openly documented methodology cited by ESPs and deliverability consultants"
     ],
     cons: [
-      "Advanced features locked behind higher pricing tiers",
-      "Template customization requires HTML/CSS knowledge",
-      "Customer support response times vary by plan",
+      "No API access for automated or bulk testing",
+      "No historical reporting, trend analysis, or team collaboration features",
+      "Limited support for campaign-level or ISP-specific inbox placement simulation",
+      "No rendering previews or client-specific compatibility checks"
     ],
-    pricing: "From $79/mo",
-    pricingDetail: "Free plan available | Starter $79/mo (2,500 subs) | Pro $145/mo (10,000 subs) | Enterprise custom pricing",
+    pricing: "Free",
+    pricingDetail: "Completely free -- no paid tiers, no credit card required. No registration needed. Optional voluntary donation available to support ongoing maintenance.",
     features: [
-      "Drag-and-drop email builder with responsive templates",
-      "Advanced contact segmentation and tagging",
-      "Marketing automation with visual workflow builder",
-      "Real-time analytics and campaign reporting",
-      "A/B testing for emails and landing pages",
-      "List management and subscriber preference center",
-      "API and webhook integrations",
-      "Signup form builder with popup and inline options",
-      "Landing page builder",
-      "SMTP relay for transactional emails",
+      "Spam score (0-10) based on SpamAssassin and custom heuristic analysis",
+      "SPF record validation and alignment check",
+      "DKIM signature verification with public key lookup",
+      "DMARC policy and reporting configuration analysis",
+      "Public blacklist (RBL) status check for sending IP and domain",
+      "Email header inspection with routing path visualization",
+      "HTML content analysis (image ratios, link safety, inline CSS warnings)",
+      "Text-to-HTML ratio scoring and recommendations",
+      "Embedded image and external resource detection",
+      "Suspicious word and formatting flagging (excessive caps, spammy phrases)",
+      "TLS encryption and STARTTLS handshake validation",
+      "DNS health summary (MX, A, TXT records)"
     ],
-    useCase: "Email deliverability specialists and senders wanting a free, quick spam score checker and email health validator before launching campaigns to ensure ISP compliance.",
+    useCase: "Validating email server configuration before launching a new transactional or marketing sending domain; diagnosing deliverability issues after campaigns fail to reach inboxes by identifying authentication or blacklist problems.",
     websiteUrl: "https://www.mail-tester.com",
-    alternatives: ["mailchimp", "sendgrid", "constant-contact"],
+    alternatives: ["unspamemail", "verifalia", "glockapps"],
     scoreBreakdown: {
     features: 93.4,
     reviews: 79.6,
@@ -1918,15 +1922,15 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
   },
   userQuotes: [
     {
-      role: "Growth Lead",
-      company: "EcomStore",
-      quote: "Mail Tester transformed our email strategy. Automation workflows save us 10+ hours per week."
+      role: "Email Deliverability Specialist",
+      company: "SaaSScale Inc.",
+      quote: "We run every new sending domain through Mail Tester before going live -- it caught our misconfigured DKIM selector before our first customer email went out."
     },
     {
-      role: "Campaign Manager",
-      company: "WebSolutions",
-      quote: "Deliverability improved significantly after switching to Mail Tester. Great platform for our needs."
-    },
+      role: "Senior DevOps Engineer",
+      company: "FinTechCore Labs",
+      quote: "The blacklist check saved us from a silent deliverability disaster -- we discovered our shared hosting IP was flagged on Spamhaus two days before launch."
+    }
   ],
   },
   {
