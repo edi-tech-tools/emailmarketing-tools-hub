@@ -34,6 +34,10 @@ const BLOG_SLUGS = [
     "transactional-vs-marketing-emails",
     "email-proofreading-copy-optimization-tools-2026",
     "cold-email-outreach-tools-strategies-2026",
+    "smtp-service-providers-compared-sendgrid-vs-amazon-ses-vs-mailgun-2026",
+    "customerio-vs-braze-vs-iterable-2026",
+    "best-email-marketing-platforms-small-business-2026",
+    "email-design-tools-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
