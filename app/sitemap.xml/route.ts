@@ -38,6 +38,7 @@ const BLOG_SLUGS = [
     "customerio-vs-braze-vs-iterable-2026",
     "best-email-marketing-platforms-small-business-2026",
     "email-design-tools-comparison",
+    "email-engagement-scoring-models-compared-2026",
 ] as const;
 
 const TOOL_SLUGS = [
