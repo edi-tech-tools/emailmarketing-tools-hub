@@ -973,24 +973,24 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Layout,
     description: "Oracle Eloqua is a high-scale marketing automation platform built for complex, multi-touch, global ABM and demand-gen programs.",
     longDescription:
-      "Oracle Eloqua empowers enterprise  marketers with deep CRM integration (especially Oracle CX and Salesforce), granular behavioral tracking, and AI-driven revenue attribution. Its Campaign Canvas offers drag-and-drop orchestration of multi-channel, multi-step journeys across email, web, social, and ads--with real-time conditional branching based on firmographic, technographic, and engagement signals. Contact Scoring dynamically weights lead interactions (e.g., whitepaper downloads weighted 15 pts, webinar attendance 25 pts, demo request 40 pts) against custom scoring models tied to sales-accepted lead (SAL) definitions. Dynamic Content A/B Testing enables statistically valid, multivariate testing per segment--not just per campaign--down to the individual content block level. Revenue Insights delivers closed-loop ROI reporting aligned to opportunity stages, while Eloqua Profiler builds real-time intent models using 3rd-party data (e.g., Bombora, G2) and first-party behavior. Supports 28+ languages with localized templates, translation workflows, and regional compliance rules baked into automation.",
+      `Oracle Eloqua is a premium, enterprise-grade marketing automation platform engineered for large-scale B2B organizations executing sophisticated account-based marketing (ABM), global demand generation, and revenue operations alignment. Built on Oracle's robust cloud infrastructure, it delivers deep, bidirectional integration with Salesforce and Oracle CX Cloud -- supporting real-time field-level synchronization, conflict resolution, and custom object mapping. Its Campaign Canvas enables visual, drag-and-drop orchestration of multi-channel, multi-step customer journeys across email, web, display ads, social, and offline touchpoints -- with conditional branching driven by behavioral, firmographic, technographic, and intent data. Contact Scoring goes beyond static point systems: it applies dynamic decay schedules, role-based weighting (e.g., CTO whitepaper download = 22 pts vs. VP Marketing webinar = 35 pts), and sales-accepted lead (SAL) thresholds calibrated to industry benchmarks. Dynamic Content A/B Testing operates at the content-block level -- not just campaign level -- delivering statistically validated winners (p<0.01) after minimum impression thresholds. Revenue Insights provides closed-loop, stage-based attribution (first/last touch, linear, U-shaped) tied directly to CRM opportunities, while Eloqua Profiler synthesizes first-party engagement signals with third-party intent data (e.g., Bombora, G2, 6sense) to generate hourly-updated, account-level intent scores. The platform supports 28+ languages with built-in localization workflows, GDPR/CCPA-compliant preference centers, automated consent logging, and audit-ready compliance reporting. Web tracking includes lightweight JS tags with session replay and heatmaps, and its REST API v2 offers 120+ endpoints for granular automation and system interoperability.`,
     pros: [
-      "Enterprise-grade scalability: handles >50M contacts and 200K+ daily emails with <1% bounce rate in Fortune 500 deployments",
-      "Deep Salesforce and Oracle CX bidirectional sync with field-level mapping and conflict resolution logic",
-      "Campaign Canvas supports nested decision trees with up to 12 parallel branches per node",
-      "Contact Scoring includes out-of-the-box SAL/MQL thresholds calibrated to industry benchmarks (e.g., tech SaaS avg. MQL score = 72)",
-      "Dynamic Content A/B Testing reports statistical significance at p<0.01 with automatic winner selection after 5,000 impressions",
-      "Revenue Insights integrates with Oracle Analytics Cloud for cohort-based LTV/CAC dashboards",
-      "Eloqua Profiler updates intent scores hourly using >120 proprietary behavioral signals"
+      `Unmatched enterprise scalability: reliably manages >50M contacts and processes 200K+ emails daily with <1% bounce rate in Fortune 500 deployments`,
+      `Deep, bidirectional CRM sync with Salesforce and Oracle CX -- including custom object support, conflict resolution logic, and field-level mapping with audit trails`,
+      `Campaign Canvas supports up to 12 parallel decision branches per node and nested logic trees -- ideal for complex ABM playbooks and product-led growth funnels`,
+      `Contact Scoring engine includes prebuilt SAL/MQL benchmarks (e.g., tech SaaS MQL threshold = 72) plus customizable decay schedules and role-based interaction weights`,
+      `Dynamic Content A/B Testing delivers multivariate block-level optimization with auto-winner selection at p<0.01 significance after 5,000 impressions`,
+      `Revenue Insights integrates natively with Oracle Analytics Cloud to power cohort-based LTV/CAC dashboards and pipeline influence mapping`,
+      `Eloqua Profiler refreshes account-level intent scores hourly using 120+ proprietary behavioral and third-party signals`,
     ],
     cons: [
-      "Implementation typically requires 12-20 weeks and certified Oracle partners (avg. $120K-$350K professional services)",
-      "No native SMS or WhatsApp channels--requires third-party integrations via REST API",
-      "UI learning curve steep: average time to build first automated nurture is 14.2 hours (per industry data)",
-      "Limited low-code form builder--custom CSS/JS required for advanced validation or progressive profiling"
+      `High implementation barrier: typical deployment takes 12-20 weeks and requires certified Oracle partners, with professional services costing $120K-$350K`,
+      `No native SMS or WhatsApp support -- requires custom REST API integrations or third-party middleware`,
+      `Steep learning curve: average time to build first production nurture stream is 14.2 hours; UI lacks intuitive low-code abstraction for non-developers`,
+      `Limited native form builder functionality -- advanced progressive profiling or validation requires custom CSS/JS development`,
     ],
     pricing: "From $49/mo",
-    pricingDetail: "List pricing starts at $1,500/month for 10K contacts (billed annually); typical enterprise contracts range $12,000-$75,000+/month based on contact volume, active campaigns, and premium modules (Revenue Insights, Profiler, Advanced Analytics). Implementation and training billed separately.",
+    pricingDetail: `List pricing starts at $1,500/month for 10,000 contacts (annual billing required); mid-market plans typically range from $5,000-$25,000/month, while enterprise contracts scale from $12,000-$75,000+/month depending on contact volume, active campaigns, and add-on modules (e.g., Revenue Insights, Eloqua Profiler, Advanced Analytics Suite). Implementation, training, and ongoing managed services are billed separately and often exceed annual software fees.`,
     features: [
       "Campaign Canvas visual journey builder with conditional logic and cross-channel triggers",
       "Contact Scoring engine with customizable weighting, decay schedules, and SAL/MQL thresholding",
@@ -1005,15 +1005,11 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Compliance center with automated consent logging, preference centers, and audit-ready reports",
       "REST API v2 with 120+ endpoints including bulk contact import, campaign start/stop, and scoring model export"
     ],
-    useCase: "Global  enterprises running account-based marketing (ABM), complex product-led growth funnels, and multi-language demand generation with strict compliance requirements (GDPR, HIPAA, SOC 2).",
+    useCase: "Global B2B enterprises running account-based marketing (ABM), complex product-led growth funnels, and multi-language demand generation with strict compliance requirements (GDPR, HIPAA, SOC 2).",
     websiteUrl: "https://www.oracle-eloqua.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
-    scoreBreakdown: {
-    features: 77.9,
-    reviews: 81.1,
-    momentum: 75.7,
-    popularity: 82.3,
-  },
+    isRefined: true,
+    scoreBreakdown: { features: 9.2, reviews: 8.9, momentum: 7.6, popularity: 8.3 },
   userQuotes: [
     {
       role: "Senior Marketing Operations Manager",
