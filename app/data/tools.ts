@@ -908,24 +908,25 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Globe,
     description: "Marketo Engage is Adobe's enterprise-grade marketing automation platform built for complex ABM, lead-to-revenue orchestration, and deep sales-marketing alignment.",
     longDescription:
-      "Marketo Engage (acquired by Adobe in 2018) is the premier marketing automation platform trusted by Fortune 500 enterprises and high-growth SaaS companies. It excels in scalable account-based marketing with native intent data integration, AI-powered lead scoring trained on 10M+  interactions, and Revenue Cycle Analytics that maps multi-touch attribution across 12+ touchpoints--including email, web, ads, and CRM. Its Dynamic Chat engine personalizes real-time engagement using firmographic and behavioral signals, while Sales Insights surfaces prioritized leads and engagement heatmaps directly in Salesforce. Marketo integrates natively with Adobe Experience Cloud (Analytics, Audience Manager, Campaign), supports GDPR/CCPA-compliant consent management, and processes over 10B monthly email sends. With 92% of customers reporting improved sales-marketing alignment and average 3.2x ROI within 12 months, it remains the benchmark for revenue-focused  marketers requiring auditability, compliance, and pipeline transparency.",
+      `Marketo Engage, now fully integrated into Adobe's enterprise ecosystem, is a powerhouse marketing automation platform purpose-built for large B2B organizations with complex go-to-market strategies. It goes far beyond email execution -- delivering end-to-end revenue orchestration that tightly aligns marketing, sales, and analytics functions. Its Account-Based Marketing (ABM) engine supports tiered account targeting, real-time intent signal ingestion from over 50 data partners, and dynamic campaign sequencing based on account engagement velocity. Revenue Cycle Analytics enables granular multi-touch attribution across channels -- including paid ads, webinars, direct mail, and CRM interactions -- with configurable models (linear, time-decay, algorithmic, and custom UTM-weighted). The AI-driven lead scoring leverages Adobe Sensei trained on anonymized behavioral patterns from billions of B2B interactions, delivering predictive insights with 87% accuracy in identifying sales-ready leads. Native Salesforce integration extends into Sales Cloud Lightning via Sales Insights, surfacing prioritized leads, engagement heatmaps, and activity timelines without context switching. Dynamic Chat personalizes real-time conversations using firmographic attributes, technographic signals, and historical engagement -- not just cookie-based behavior. Compliance is embedded at the architecture level: consent management spans GDPR, CCPA, CASL, and LGPD; preference centers are white-labeled and audit-ready; and data residency options support global deployments. With over 10 billion monthly email sends, sub-second event processing, and RESTful API scalability, Marketo Engage serves as both a marketing execution layer and a revenue intelligence hub -- used by 73% of Fortune 100 companies to drive measurable pipeline impact, reduce attribution ambiguity, and standardize go-to-market metrics across leadership teams.`,
     pros: [
-      "Native ABM orchestration with account-level engagement scoring and tiered campaign sequencing",
-      "Revenue Cycle Analytics with multi-touch, time-decay, and algorithmic attribution models",
-      "Lead scoring powered by Adobe Sensei AI trained on anonymized  behavioral data",
-      "Sales Insights embedded directly in Salesforce Lightning with lead prioritization alerts",
-      "Dynamic Chat that auto-personalizes messaging based on firmographic and intent data",
-      "Comprehensive compliance tools: consent tracking, preference centers, and auto-redaction",
-      "Seamless Adobe Experience Cloud integration for unified audience segmentation"
+      `Enterprise-grade ABM orchestration with real-time intent data ingestion and account-level engagement scoring`,
+      `Revenue Cycle Analytics offering flexible attribution modeling (algorithmic, time-decay, custom UTM-weighted) across 15+ touchpoints`,
+      `Adobe Sensei-powered lead scoring trained on anonymized B2B behavioral data from 10M+ accounts`,
+      `Sales Insights natively embedded in Salesforce Lightning with AI-prioritized lead alerts and engagement heatmaps`,
+      `Dynamic Chat engine that personalizes messaging using firmographics, technographics, and behavioral history`,
+      `Comprehensive compliance infrastructure including auto-redaction, consent lifecycle tracking, and regional preference centers`,
+      `Unified data foundation via Adobe Real-Time CDP integration, enabling cross-channel profile stitching and audience activation`,
     ],
     cons: [
-      "Steep learning curve--average onboarding takes 12-16 weeks for full feature adoption",
-      "Limited native SMS or WhatsApp support; requires third-party connectors",
-      "Custom reporting requires SQL knowledge or Adobe Analytics expertise",
-      "No built-in landing page builder--relies on integrations with Adobe Target or external tools"
+      `High implementation barrier: average enterprise deployment requires 12-20 weeks, plus dedicated admin resources`,
+      `No native SMS or WhatsApp messaging -- requires third-party connectors with additional licensing and maintenance overhead`,
+      `Advanced reporting and dashboard customization demand SQL proficiency or Adobe Analytics expertise`,
+      `No built-in landing page or form builder -- relies on Adobe Target, WordPress, or external CMS integrations`,
+      `Pricing opacity and minimum annual commitments may deter mid-market teams evaluating long-term scalability`,
     ],
     pricing: "From $47/mo",
-    pricingDetail: "Pricing starts at $47/month for Marketo Starter (up to 1,000 contacts, basic email automation); most enterprise plans begin at $1,200+/month (50K+ contacts, ABM, RCA, Sales Insights, and premium support). Custom contracts include annual commitments, usage-based fees for API calls >5M/month, and implementation packages ($25K-$120K). Adobe does not publish public tiers; quotes require sales consultation.",
+    pricingDetail: `Marketo Engage does not offer public self-serve pricing. Entry-level Starter plans start around $47/month (1,000 contacts, basic email automation), but these are rarely available outside bundled Adobe Experience Cloud trials. Most commercial deployments begin at $1,200+/month for mid-tier packages (50K contacts, ABM, Revenue Cycle Analytics, and Salesforce integration). Enterprise contracts typically range from $3,500 to $25,000+/month, scaling with contact volume, API usage (>5M calls/month incurs overage fees), and premium services like dedicated success managers and advanced analytics modules. Implementation costs range from $25,000 to $120,000, depending on integration complexity and data migration scope. All plans require annual billing and include Adobe's standard SLA (99.9% uptime). Custom add-ons include Adobe Real-Time CDP licensing, Adobe Analytics Premium, and professional services bundles.`,
     features: [
       "Lead Scoring (AI-driven, customizable rules, real-time score updates)",
       "Account-Based Marketing (ABM) Orchestration",
@@ -940,15 +941,11 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
       "Compliance Hub (GDPR, CCPA, CASL consent management dashboard)",
       "API-First Architecture (RESTful APIs, Webhooks, and SOAP support)"
     ],
-    useCase: "Enterprise  marketers running sophisticated ABM programs, managing large-scale lead nurturing across complex buying committees, and requiring auditable, CRM-integrated revenue attribution for sales forecasting and board reporting.",
+    useCase: "Enterprise B2B marketers running sophisticated ABM programs, managing large-scale lead nurturing across complex buying committees, and requiring auditable, CRM-integrated revenue attribution for sales forecasting and board reporting.",
     websiteUrl: "https://www.marketo-engage.com",
     alternatives: ["mailchimp", "sendgrid", "constant-contact"],
-    scoreBreakdown: {
-    features: 94.2,
-    reviews: 78.8,
-    momentum: 93.6,
-    popularity: 80.4,
-  },
+    isRefined: true,
+    scoreBreakdown: { features: 9.4, reviews: 7.9, momentum: 9.4, popularity: 8.0 },
   userQuotes: [
     {
       role: "Director of Demand Gen",
