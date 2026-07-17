@@ -41,6 +41,7 @@ const BLOG_SLUGS = [
     "email-engagement-scoring-models-compared-2026",
     "klaviyo-vs-omnisend-vs-mailchimp-ecommerce-2026",
     "mailchimp-vs-klaviyo-2026-email-marketing-comparison",
+    "email-marketing-automation-cost-comparison-2026",
 ] as const;
 
 const TOOL_SLUGS = [
