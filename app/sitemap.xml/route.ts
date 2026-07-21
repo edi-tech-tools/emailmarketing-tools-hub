@@ -47,6 +47,7 @@ const BLOG_SLUGS = [
   "transactional-email-services-comparison-2026",
   "transactional-vs-marketing-emails",
   "mailchimp-vs-klaviyo-vs-activecampaign-2026-comprehensive-comparison",
+  "brevo-vs-mailerlite-vs-sendpulse-2026",
 ] as const;
 
 const TOOL_SLUGS = [
