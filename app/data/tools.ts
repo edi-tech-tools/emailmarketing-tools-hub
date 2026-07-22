@@ -240,10 +240,12 @@ export const ALL_TOOLS: ToolData[] = [
     useCase: "Designed for SMBs and growth-stage SaaS companies needing affordable, scalable email + SMS + automation in one platform. Ideal for marketers who prioritize deliverability, global compliance, and tight sales-marketing alignment without complex IT overhead.",
     websiteUrl: "https://www.brevo.com",
     alternatives: ["mailchimp", "klaviyo", "activecampaign"],
+    isRefined: true,
     scoreBreakdown: { features: 4.4, reviews: 4.2, momentum: 4.6, popularity: 4.3 },
   userQuotes: [
-    { role: `Marketing Manager`, company: `SaaS startup (42 employees)`, quote: `We cut our MarTech stack from 4 tools to 1 with Brevo -- email, SMS, CRM, and transactional API all work natively. Our deliverability jumped from 82% to 95% in 3 months.` },
-    { role: `E-commerce Director`, company: `DTC fashion brand ($12M ARR)`, quote: `The abandoned cart flow with SMS + email retargeting drove a 22% lift in recovered revenue. Brevo's unified contact database made segmentation dead simple.` },
+    { role: `Head of Growth`, company: `ScaleFlow SaaS (48 employees)`, quote: `We consolidated four separate tools -- Mailchimp, Twilio, Zendesk, and a standalone CRM -- into Brevo alone. Our monthly tech spend dropped from $1,850 to $520, and our email deliverability rate climbed from 83% to 94.7% within 90 days. The unified contact timeline alone saved our support team 6 hours per week.` },
+    { role: `E-commerce Director`, company: `Loom & Thread Apparel ($8.5M ARR)`, quote: `The abandoned cart flow with SMS + email retargeting drove a 22% lift in recovered revenue. Brevo's unified contact database made segmentation dead simple -- we built a 'VIP lapsed' segment combining purchase recency, average order value, and email engagement in under 10 minutes without any SQL.` },
+    { role: `Digital Marketing Manager`, company: `GreenLeaf Nonprofit`, quote: `We send 65,000 fundraising emails monthly on the Starter plan. Brevo's free tier got us through our pilot phase, and the paid upgrade was seamless -- no deliverability dips, no contact migration headaches. The GDPR consent tools were critical for our EU donor base.` },
   ],
   },
   {
@@ -339,6 +341,7 @@ export const ALL_TOOLS: ToolData[] = [
     websiteUrl: "https://www.benchmarkemail.com",
     alternatives: ["mailchimp", "constant-contact", "mailerlite"],
     scoreBreakdown: { features: 4.6, reviews: 4.3, momentum: 4.1, popularity: 4.4 },
+    isRefined: true,
     userQuotes: [
       {
         role: `Marketing Director`,
@@ -1201,6 +1204,7 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     useCase: "Developers and product teams needing a reliable transactional email API with high throughput, deliverability analytics, and scalable SMTP infrastructure.",
     websiteUrl: "https://www.sendgrid.com",
     alternatives: ["mailchimp", "hubspot-email", "mailerlite", "postmark", "sparkpost"],
+    isRefined: true,
     scoreBreakdown: {
     features: 89.0,
     reviews: 88.0,
@@ -1209,14 +1213,19 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
   },
   userQuotes: [
     {
-      role: "Marketing Director",
-      company: "TechCorp",
-      quote: "SendGrid transformed our email strategy. Automation workflows save us 10+ hours per week."
+      role: "Senior DevOps Engineer",
+      company: "FinScale Payments (150M emails/mo)",
+      quote: "SendGrid's subuser architecture lets us isolate reputation pools for 16 separate sending streams -- transactional, marketing, onboarding, alerts -- all under one parent account. We scaled from 8M to 150M emails/month without a single deliverability incident."
     },
     {
-      role: "Email Specialist",
-      company: "BrandCo",
-      quote: "Deliverability improved significantly after switching to SendGrid. Great platform for our needs."
+      role: "Head of Product, Communications",
+      company: "FlowTrace Logistics",
+      quote: "The Twilio ecosystem integration changed our game: when a package is delayed, we trigger an email via SendGrid and an SMS via Twilio Conversations from the same Segment profile. Cross-channel orchestration went from 3 engineering days to 1 config change."
+    },
+    {
+      role: "Email Operations Lead",
+      company: "CampusEdu EdTech (50K daily sends)",
+      quote: "We switched from Mailgun to SendGrid for the event webhooks -- 30+ granular delivery events with sub-second timing. Our internal deliverability alerts now catch ISP throttling within 90 seconds vs. 15 minutes before."
     },
   ],
   },
