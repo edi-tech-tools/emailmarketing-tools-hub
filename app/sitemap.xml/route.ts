@@ -49,6 +49,7 @@ const BLOG_SLUGS = [
   "mailchimp-vs-klaviyo-vs-activecampaign-2026-comprehensive-comparison",
   "brevo-vs-mailerlite-vs-sendpulse-2026",
   "sendgrid-vs-amazon-ses-vs-mailgun-2026-deliverability",
+  "email-automation-ai-features-2026-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
