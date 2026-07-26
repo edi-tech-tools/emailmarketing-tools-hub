@@ -50,6 +50,7 @@ const BLOG_SLUGS = [
   "brevo-vs-mailerlite-vs-sendpulse-2026",
   "sendgrid-vs-amazon-ses-vs-mailgun-2026-deliverability",
   "email-automation-ai-features-2026-comparison",
+  "crm-integration-email-marketing-2026",
 ] as const;
 
 const TOOL_SLUGS = [
