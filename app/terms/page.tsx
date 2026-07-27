@@ -196,7 +196,7 @@ EmailMarketingTools is a curated directory platform that provides information,
             <div className="mt-4 p-5 bg-[#2D0F0F] border border-[#5F1E1E] rounded-xl">
               <p className="mb-2"><strong className="text-[#FEF2F0]">Email:</strong> legal@emailcompare.net</p>
               <p className="mb-2"><strong className="text-[#FEF2F0]">Support:</strong> support@emailcompare.net</p>
-              <p><strong className="text-[#FEF2F0]">Address:</strong> 201 Mission Street, 25th Floor, San Francisco, CA 94105</p>
+              <p><strong className="text-[#FEF2F0]">Address:</strong> EmailCompare LLC, 1120 Avenue of the Americas, Suite 4110, New York, NY 10036</p>
             </div>
           </section>
         </div>
