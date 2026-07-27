@@ -51,6 +51,7 @@ const BLOG_SLUGS = [
   "sendgrid-vs-amazon-ses-vs-mailgun-2026-deliverability",
   "email-automation-ai-features-2026-comparison",
   "crm-integration-email-marketing-2026",
+  "interactive-email-marketing-strategies-2026",
 ] as const;
 
 const TOOL_SLUGS = [
