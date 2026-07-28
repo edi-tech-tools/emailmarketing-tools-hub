@@ -52,6 +52,7 @@ const BLOG_SLUGS = [
   "email-automation-ai-features-2026-comparison",
   "crm-integration-email-marketing-2026",
   "interactive-email-marketing-strategies-2026",
+  "email-marketing-attribution-models-2026",
 ] as const;
 
 const TOOL_SLUGS = [
