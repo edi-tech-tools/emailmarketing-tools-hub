@@ -53,6 +53,8 @@ const BLOG_SLUGS = [
   "crm-integration-email-marketing-2026",
   "interactive-email-marketing-strategies-2026",
   "email-marketing-attribution-models-2026",
+  "email-marketing-platform-comparison-2026",
+  "email-deliverability-best-practices-2026",
 ] as const;
 
 const TOOL_SLUGS = [
