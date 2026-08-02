@@ -9227,4 +9227,84 @@ Great email copy isn’t magic—it’s method. In 2026, leverage tools that enf
     readTime: 8,
     tags: ["email-copywriting", "subject-line-formulas", "email-conversion", "email-marketing", "cta-optimization", "email-copy"],
   },
+{
+    slug: "email-frequency-optimization-sending-cadence-2026",
+    title: "Email Frequency Optimization in 2026: Finding Your Ideal Sending Cadence",
+    excerpt: "Sending too often burns lists and tanks deliverability; too rarely leaves revenue on the table. This guide shows how to find your ideal 2026 email cadence through segmentation, frequency testing, and engagement-based rules.",
+    content: `## Frequency Is a Strategic Lever, Not Just a Habit
+
+Every brand sends more than it should. In 2026, the failure mode of email marketing has shifted from "not enough sends" to "too many, poorly timed, and uneven." List fatigue hurts engagement, inflates bounce and spam-complaint rates, and drags down sender reputation across the mailbox providers that dominate your audience's inbox. Frequency optimization is not about a magic number — it is a process of discovering the cadence that maximizes revenue per contact while protecting long-term deliverability.
+
+## Why the "One Perfect Frequency" Is a Myth
+
+Open rates generally fall as sending volume rises, yet total revenue can still increase because more touches capture more moments of intent. There is no universal ideal cadence: a daily digest works for a media site but overwhelms a B2B SaaS onboarding sequence; a monthly campaign suits a high-ticket agency but starves a fast-moving consumer brand. The real task is balancing per-send engagement against cumulative reach.
+
+Rather than asking "how often should I send?", ask "how often should I send to *this* group, at *this* lifecycle stage, responding to *this* behavior?"
+
+## Signals That You Are Over-Sending
+
+Watch these leading indicators so you catch fatigue before deliverability suffers:
+
+- **Open rate dilution:** open rates dropping five or more points as volume scales signals the ceiling is near.
+- **Complaint rate creep:** mailbox providers publish a soft threshold near 0.1%; sustained complaints above that invite filtering.
+- **Unsubscribe spikes** after specific sends flag campaigns that over-saturated the list.
+- **Zero-opens growth:** a large, silent segment signals fatigue at the segment level.
+
+## A Segmentation-First Frequency Framework
+
+Your list is not one audience. Cadence should be set per segment using rules that combine recent engagement with lifecycle position:
+
+| Segment | Recommended Cadence | Rationale |
+|---------|--------------------|-----------|
+| Engaged (opened/clicked in last 30 days) | Up to 2-3 per week | High responsiveness, low spam risk, high cumulative value |
+| Lapsing (no open in 30-60 days) | 1 per week, re-engagement focus | Maintains top-of-mind without accelerating churn |
+| Dormant (no open in 90+ days) | Monthly, low-pressure, choice-based | Keeps presence without triggering complaints |
+| New subscribers | Onboarding sequence (3-5 sends over 7-14 days) | Highest-intent period; separate from broadcast cadence |
+| Transactional contacts | Event-driven only | Never add marketing volume to lifecycle-triggered mail |
+
+## A Practical Frequency-Testing Method
+
+Treat frequency like any other marketing variable and test it properly.
+
+1. Start from a stable baseline across consistent segments, weekly sends, and a fixed subject-line strategy.
+2. **Isolate one variable.** Test per-segment cadence (for example, two versus four sends per week) while holding content quality constant so any effect is attributable to frequency.
+3. **Run a real test** of three to four weeks to observe both immediate engagement and slower effects such as list churn and spam complaints.
+4. **Watch secondary metrics.** Opens and clicks are necessary but not sufficient — also track unsubscribes, complaint rate, reply rate, and revenue per contact.
+5. **Scale gradually.** Move toward the winning cadence one step at a time to avoid a reputation shock to your sending domain.
+
+## Tools for Frequency and Revenue Optimization
+
+- **Klaviyo** ties cadence to purchase recency and buyer lifecycle, so high-value e-commerce customers get more of your best content.
+- **ActiveCampaign** lets you build conditional frequency caps and engagement-based segment branching directly into B2B automation.
+- **Mailchimp** offers send-based limits and straightforward A/B testing of volume for smaller teams and newsletters.
+- **MailerLite** provides a clear engagement dashboard and simple automation for frequency controls at a low cost.
+- **Litmus** monitors inbox placement and rendering to confirm that a higher cadence is not damaging deliverability.
+
+## FAQ
+
+**Q: What is the best sending frequency for a small business in 2026?**
+A: A good default is one high-quality newsletter per week, plus event-driven transactional and automated sequences. Scale weekly volume only when complaint metrics stay healthy.
+
+**Q: Does sending more emails always increase revenue?**
+A: Not necessarily. More sends capture more moments of intent, but each send risks fatigue and reputation damage. Revenue per contact often peaks before open rates saturate.
+
+**Q: How do I reduce unsubscribes when I increase frequency?**
+A: Vary cadence by engagement through segmentation, respect frequency preferences, and give subscribers control over how much they receive.
+
+**Q: What complaint-rate threshold should I watch?**
+A: Keep spam complaints near 0.1% or lower. Rising complaints after a frequency increase is the clearest early warning that your cadence is too aggressive.
+
+**Q: Should transactional and marketing sends share a domain?**
+A: Yes, but separate the streams by authentication record and monitor them independently, since transactional mail is high-value and should never be throttled by marketing spikes.
+
+## Conclusion and Recommendation
+
+Frequency optimization is an ongoing, data-driven discipline. Start with your highest-intent segments, establish an engagement-based cadence instead of a single global schedule, and let complaint rate and revenue per contact guide every upward step in volume. For most teams the pragmatic path is: use **MailerLite** or **Mailchimp** to launch a frequency framework quickly and cheaply, move to **ActiveCampaign** for sophisticated, condition-based cadence rules as you scale, and keep **Litmus** in the loop to verify deliverability stays intact while you send more. Revisit your cadence quarterly as list composition shifts, and treat every send as a deliberate, measurable decision rather than a default habit.`,
+    author: "edi@emailcompare.net",
+    authorRole: "Email Marketing Technology Analyst",
+    date: "2026-08-03",
+    category: "Email Marketing",
+    readTime: 9,
+    tags: ["email-frequency", "sending-cadence", "email-deliverability", "email-segmentation", "email-marketing", "list-engagement"],
+  },
 ];

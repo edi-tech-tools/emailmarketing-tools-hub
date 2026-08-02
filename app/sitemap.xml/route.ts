@@ -136,7 +136,8 @@ const CATEGORY_SLUGS = [
 export async function GET() {
   const baseUrl = "https://emailcompare.net";
 
-  const urls: string[] = [];
+  const urls: string[] = [  "email-frequency-optimization-sending-cadence-2026",
+];
 
   urls.push(`<url><loc>${baseUrl}</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>`);
   urls.push(`<url><loc>${baseUrl}/blog</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
