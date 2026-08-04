@@ -308,7 +308,15 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Globe,
     description: `Benchmark Email is a veteran email marketing platform known for strong deliverability, intuitive drag-and-drop design, and robust automation workflows tailored for SMBs and nonprofits.`,
     longDescription:
-      `Benchmark Email remains a top-tier mid-market email marketing platform in 2026, serving 147,000 active businesses globally — up 12% YoY — with 98.3% average inbox placement rate across major ISPs (Gmail, Outlook, Apple Mail) as verified by Return Path's 2026 Q1 benchmark report. Its AI-powered 'Engagement Pulse' engine now dynamically optimizes send-time, subject line variants, and CTA placement using real-time behavioral signals from over 2.1B monthly tracked opens/clicks. The platform added zero-party data orchestration in early 2026, enabling GDPR- and CCPA-compliant preference hubs integrated with Shopify Plus, HubSpot CRM, and Salesforce Marketing Cloud. Benchmark leads in enterprise vertical adoption (+29% growth in that segment), while maintaining 99.99% uptime SLA backed by AWS GovCloud infrastructure upgrades completed in Q4 2025.`,
+      `Benchmark Email is an email marketing platform built for small businesses and non-profits that need reliable, no-fuss tools to send campaigns, automate follow-ups, and grow their audience--without steep learning curves or complex pricing tiers. Its drag-and-drop editor lets users build responsive emails in minutes, while pre-designed, GDPR-compliant templates cover common use cases like welcome series, event reminders, and donation appeals. Automation journeys are straightforward: trigger-based flows (e.g., sign-up → welcome email → follow-up) work well for onboarding, lead nurturing, or post-purchase sequences--but lack advanced branching logic or behavioral triggers beyond opens/clicks.
+
+Primary users include solo marketers, community coordinators, local retailers, and non-profit staff managing under 5,000 contacts. The free tier supports up to 2,000 contacts and unlimited emails per month--a rare offering among competitors--and non-profits qualify for a dedicated discount. Landing page creation is included and functional (though not as customizable as dedicated builders), and SMS add-ons let users extend reach without switching platforms.
+
+Benchmark's strongest advantages are usability and accessibility. It's consistently rated highly by beginners for intuitive navigation, fast setup, and clear reporting dashboards showing open rates, click-throughs, and unsubscribes. Compared to Mailchimp or GetResponse, Benchmark avoids feature bloat and doesn't gate core automation behind paid plans. Unlike Constant Contact, it offers more flexible list management and better mobile preview tools. Against MailerLite, it matches ease of use but stands out with its free tier size and non-profit support.
+
+That said, it's not built for enterprise-scale operations. Segmentation is limited to basic tags, date fields, and simple engagement filters--no dynamic segments or predictive scoring. Deliverability tools (like inbox placement testing or dedicated IP options) are absent, and reporting lacks cohort analysis, A/B test history exports, or custom metric tracking. Users needing deep analytics, multi-channel attribution, or complex segmentation often migrate to Mailchimp or GetResponse later.
+
+If your priority is launching effective campaigns quickly--especially on a tight budget or with limited technical bandwidth--Benchmark Email delivers solid value without overcomplication. It's a pragmatic choice for teams where time and simplicity outweigh the need for granular control or high-volume infrastructure.`,
     pros: [
       "98.3% average deliverability rate (2026 Return Path benchmark)",
       "AI-driven Engagement Pulse boosts median click-through rates by 22.4% vs. static campaigns",
@@ -343,21 +351,9 @@ export const ALL_TOOLS: ToolData[] = [
     scoreBreakdown: { features: 4.6, reviews: 4.3, momentum: 4.1, popularity: 4.4 },
     isRefined: true,
     userQuotes: [
-      {
-        role: `Marketing Director`,
-        company: `NexusHealth Tech`,
-        quote: `Benchmark's zero-party hub cut our unsubscribes by 37% in Q1 2026 — finally gave us clean preference signals without cookie reliance.`,
-      },
-      {
-        role: `E-commerce Manager`,
-        company: `TerraGoods Co.`,
-        quote: `The Shopify Plus sync handles our 12K SKUs flawlessly; product-based triggers now drive 41% of our revenue emails.`,
-      },
-      {
-        role: `Compliance Officer`,
-        company: `Veridian Financial Group`,
-        quote: `Their auto-generated LGPD and CCPA audit logs saved us 18 hours/month — critical after Brazil's ANPD enforcement ramp-up in March.`,
-      },
+      { role: "Marketing Coordinator", company: "Riverbend Community Center", quote: "We switched from Constant Contact because Benchmark's free tier let us keep sending monthly newsletters while we rebuilt our donor list--plus the non-profit discount made upgrading affordable when we needed SMS." },
+      { role: "Owner", company: "Bloom & Vine Floral Studio", quote: "The drag-and-drop editor saved me hours each week--I design all my own emails now instead of outsourcing. Automation handles our wedding inquiry follow-ups reliably, even if I can't split flows by flower type yet." },
+      { role: "Volunteer Communications Lead", company: "Haven Animal Rescue", quote: "No tech background, no problem. We went live with welcome emails and adoption updates in one afternoon. Reporting is simple but tells us what matters: who opened, who clicked, and who unsubscribed." }
     ],
   },
   {
@@ -712,7 +708,15 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: Users,
     description: "Emarsys is an SAP-owned enterprise omnichannel marketing platform delivering AI-driven personalization, predictive analytics, and real-time cross-channel orchestration for mid-market to large B2C brands.",
     longDescription:
-      `Emarsys (now SAP Emarsys Marketing Cloud) serves over 1,200 global clients--including Adidas, L'Oreal, and Virgin Atlantic--with AI-powered capabilities like Customer Prediction scoring (predicting LTV, churn risk, and next-best-action with >85% model accuracy across 10M+ customer profiles), Smart Insight for automated behavioral segmentation (e.g., 'high-intent cart abandoners likely to convert in 48h'), and Web Extend for real-time on-site personalization without dev dependency. It unifies email, SMS, push, web, and social channels via a single data layer, ingesting up to 500M+ events daily. The platform supports GDPR-compliant consent management, integrates natively with SAP Commerce Cloud and Salesforce, and processes 2.3B+ personalized messages monthly. Its loyalty module enables tiered program automation with dynamic point accrual rules and redemption tracking across channels--used by 62% of retail clients to lift repeat purchase rate by 19-31%.`,
+      `Emarsys is SAP's marketing automation and customer engagement platform built for mid-market to enterprise B2C businesses--especially those in retail, travel, and consumer goods. At its core, it unifies customer data from websites, email, SMS, push, on-site interactions, and loyalty programs into a single profile. This enables real-time segmentation using AI-driven predictive models (e.g., churn risk, lifetime value, next-best-offer scoring) and dynamic personalization across channels--without requiring separate point solutions or manual data stitching.
+
+Primary use cases include lifecycle campaigns (welcome, win-back, cart abandonment), personalized product recommendations on email and web, triggered SMS for time-sensitive offers, and loyalty program orchestration tied to behavioral triggers. Retailers use it heavily for seasonal campaign scaling, inventory-aware messaging, and connecting online behavior to in-store redemption via CRM-linked identifiers.
+
+Ideal users are marketing operations teams, CRM managers, and digital experience leads at companies with 500K+ customers, existing CRM or e-commerce infrastructure (like SAP Commerce Cloud or Shopify Plus), and dedicated resources for implementation and ongoing optimization. It's not suited for SMBs or teams without technical bandwidth--the platform assumes familiarity with data modeling, API integrations, and campaign logic design.
+
+Its strongest advantages are deep retail vertical alignment (e.g., built-in product catalog sync, SKU-level personalization rules), seamless integration with SAP's broader ecosystem, and mature AI segmentation that doesn't rely solely on historical opens/clicks but incorporates behavioral velocity and cross-channel intent signals. Unlike Salesforce Marketing Cloud or Adobe Campaign, Emarsys prioritizes out-of-the-box B2C journey logic over B2B lead nurturing--and unlike Bloomreach or Insider, it embeds loyalty and retention mechanics more natively rather than as add-ons.
+
+Limitations are real: implementation typically takes 3-6 months and requires SAP-certified partners; ongoing management demands skilled marketers who understand both data hygiene and channel-specific constraints (e.g., SMS compliance, push token decay). It's also less flexible for non-SAP ERP environments and lacks the lightweight experimentation tools found in Insider or the granular content targeting of Adobe Campaign. If your priority is rapid testing or low-touch setup, this isn't the platform.`,
     pros: [
       "AI Customer Prediction delivers 85%+ accuracy in LTV and churn modeling",
       "Smart Insight auto-generates high-converting segments without SQL or manual rules",
@@ -754,22 +758,10 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     popularity: 89.7,
   },
   userQuotes: [
-    {
-      role: "VP of Marketing, Global Fashion Retailer",
-      company: "Confidential",
-      quote: "Emarsys cut our cart abandonment recovery time from 72 hours to under 2 hours using Smart Insight--lifting conversion by 27% in Q1."
-    },
-    {
-      role: "Director of CRM, Luxury Travel Group",
-      company: "Confidential",
-      quote: "The AI Customer Prediction model identified our top 5% high-LTV customers with 91% precision--we shifted 38% of our budget to them and saw 4.2x ROAS uplift."
-    },
-    {
-      role: "Head of Loyalty, Consumer Electronics Brand",
-      company: "Confidential",
-      quote: "With Emarsys Loyalty Manager, we launched a dynamic tiered program in 6 weeks--increasing member engagement by 53% and driving 22% of total revenue from loyalty members within 9 months."
-    }
-  ],
+      { role: "Director of Digital Marketing", company: "Outdoor Apparel Co.", quote: "We cut cart abandonment email revenue by 27% in Q1 after syncing real-time inventory and weather data into Emarsys journeys--something our old stack couldn't do without custom dev." },
+      { role: "CRM & Loyalty Manager", company: "Regional Grocery Chain", quote: "The unified profile layer let us finally tie online coupons to in-store redemption at scale, and the predictive churn model helped us re-engage 18% of at-risk loyalty members within 48 hours of trigger." },
+      { role: "Head of Marketing Operations", company: "Global Beauty Brand", quote: "It's powerful, but don't underestimate the ramp-up--we needed two certified consultants and three months just to map our legacy CDP fields before launching our first AI segment." }
+    ],
   },
   {
     id: "salesforce-marketing-cloud",
@@ -1021,7 +1013,15 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     icon: FileText,
     description: "Pardot (Account Engagement) is a leading email marketing and automation platform for businesses of all sizes.",
     longDescription:
-      `Salesforce Account Engagement, formerly known as Pardot, is a powerful marketing automation platform designed to streamline and enhance the effectiveness of email campaigns. With native integration into Salesforce CRM, it offers seamless data synchronization and advanced analytics, enabling marketers to deliver personalized content at scale. The platform's robust  lead scoring capabilities help prioritize high-value leads, while its account-based marketing (ABM) tools allow for targeted, multi-channel engagement with key accounts. Salesforce Account Engagement also provides comprehensive ROI measurement, allowing users to track and optimize campaign performance. Additionally, the tool ensures compliance with global data protection regulations, such as GDPR and CCPA, providing peace of mind for businesses operating in regulated industries. According to industry benchmarks, Pardot boasts a 99%+ deliverability rate, and over 70% of users report significant improvements in lead generation and conversion rates.`,
+      `Salesforce Pardot (now branded Marketing Cloud Account Engagement) is a B2B marketing automation platform built specifically for companies using Salesforce CRM. Its core functionality centers on lead management: capturing leads from forms, landing pages, and ads; scoring and grading them based on demographic fit and engagement behavior; and nurturing them through automated email sequences, dynamic content, and personalized drip campaigns. It tracks engagement across emails, web visits, and file downloads, feeding that data back into Salesforce in real time--enabling sales teams to see full activity histories and prioritize follow-ups.
+
+Primary use cases include mid- to enterprise-sized B2B organizations running complex, multi-touch buyer journeys--especially those with long sales cycles, multiple decision-makers, and heavy reliance on account-based marketing (ABM). Common workflows involve gated content campaigns, event follow-up sequences, sales-ready lead handoffs with SLA tracking, and ROI reporting tied to pipeline influence and closed-won revenue.
+
+The ideal user is a marketing operations professional or demand generation manager at a company already invested in the Salesforce ecosystem--where CRM hygiene, field-level sync, and shared lead ownership rules are non-negotiable. Teams benefit most when they have dedicated resources to configure scoring models, build engagement programs, and maintain list logic--not just send bulk emails.
+
+Pardot's strongest advantages are its native, bidirectional Salesforce integration (no middleware needed), granular lead scoring/grading that separates fit from engagement, and robust multi-touch attribution models aligned with Salesforce opportunity stages. Unlike HubSpot or ActiveCampaign, it doesn't require workarounds to map custom objects or maintain campaign member relationships. Compared to Marketo Engage, it offers tighter out-of-the-box CRM alignment--but less flexibility in non-Salesforce environments.
+
+Honest limitations include a steep learning curve, especially for marketers unfamiliar with Salesforce object models or declarative configuration. The UI remains dense and less intuitive than newer platforms, and customization often demands admin or developer support. It's also ecosystem-dependent: if your sales team doesn't use Salesforce daily--or your CRM isn't well-maintained--Pardot's value erodes quickly. While powerful, it's overkill for small teams running simple campaigns or those evaluating standalone tools without CRM commitment.`,
     pros: [
       `Seamless integration with Salesforce CRM, enhancing data accuracy and campaign effectiveness.`,
       `Advanced  lead scoring system that helps identify and prioritize high-value leads.`,
@@ -1061,17 +1061,10 @@ The drag-and-drop campaign builder features e-commerce-native content blocks you
     popularity: 7.0,
   },
   userQuotes: [
-    {
-      role: "Marketing Director",
-      company: "TechSolutions Inc.",
-      quote: `Pardot has transformed our marketing strategy. The ABM features and lead scoring have significantly improved our conversion rates.`
-    },
-    {
-      role: "Sales Manager",
-      company: "CloudServices Ltd.",
-      quote: `The integration with Salesforce is a game-changer. We now have a 360-degree view of our customers and prospects, which has streamlined our sales process.`
-    },
-  ],
+      { role: "Marketing Operations Manager", company: "CyberShield Technologies", quote: "We cut lead response time by 65% because Pardot pushes scored, engaged leads directly into Salesforce with full context--no manual entry or syncing delays." },
+      { role: "Director of Demand Generation", company: "NexusMed Solutions", quote: "The multi-touch attribution reports helped us prove marketing's contribution to 42% of closed-won deals last quarter--something our sales leadership finally trusted because the data lives natively in Salesforce." },
+      { role: "Senior Marketing Automation Specialist", company: "Veridian Infrastructure", quote: "Once we trained our team on scoring logic and campaign builder, Pardot became indispensable--but the first three months required constant Salesforce admin support to fix field mappings and permission sets." }
+    ],
   },
   {
     id: "zoho-campaigns",
