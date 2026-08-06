@@ -57,6 +57,9 @@ const BLOG_SLUGS = [
   "email-deliverability-best-practices-2026",
   "win-back-email-campaigns-reactivating-dormant-subscribers-2026",
   "email-copywriting-frameworks-that-convert-2026",
+  "saas-onboarding-lifecycle-email-automation-2026",
+  "email-marketing-accessibility-inclusive-design-2026",
+  "ai-inbox-eras-optimizing-email-for-ai-assistants-2026",
 ] as const;
 
 const TOOL_SLUGS = [
