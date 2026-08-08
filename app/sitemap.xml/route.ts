@@ -62,7 +62,8 @@ const BLOG_SLUGS = [
   "ai-inbox-eras-optimizing-email-for-ai-assistants-2026",
   "email-frequency-optimization-sending-cadence-2026",
   "dark-mode-email-design-optimization-guide-2026",
-  "email-automation-benchmarks-2026-by-trigger-type",
+  "email-automation-benchmarks-2026-by-trigger-type",,
+  "post-purchase-email-automation-guide-2026"
 ] as const;
 
 const TOOL_SLUGS = [
