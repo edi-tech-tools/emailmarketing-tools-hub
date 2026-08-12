@@ -62,8 +62,12 @@ const BLOG_SLUGS = [
   "ai-inbox-eras-optimizing-email-for-ai-assistants-2026",
   "email-frequency-optimization-sending-cadence-2026",
   "dark-mode-email-design-optimization-guide-2026",
-  "email-automation-benchmarks-2026-by-trigger-type",,
-  "post-purchase-email-automation-guide-2026"
+  "email-automation-benchmarks-2026-by-trigger-type",
+  "post-purchase-email-automation-guide-2026",
+  "email-deliverability-inbox-placement-tools-2026",
+  "cross-channel-marketing-automation-2026-mailjet-acoustic-moengage",
+  "leanplum-mailchimp-chamaileon-2026-comparison",
+  "welcome-email-sequences-2026-guide"
 ] as const;
 
 const TOOL_SLUGS = [
