@@ -67,7 +67,8 @@ const BLOG_SLUGS = [
   "email-deliverability-inbox-placement-tools-2026",
   "cross-channel-marketing-automation-2026-mailjet-acoustic-moengage",
   "leanplum-mailchimp-chamaileon-2026-comparison",
-  "welcome-email-sequences-2026-guide"
+  "welcome-email-sequences-2026-guide",
+  "email-deliverability-monitoring-tools-compared-2026"
 ] as const;
 
 const TOOL_SLUGS = [
