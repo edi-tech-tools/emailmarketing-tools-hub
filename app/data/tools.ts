@@ -2142,7 +2142,7 @@ Enterprise customers use webhooks to push results into Jira and Datadog. Integra
   userQuotes: [
     {
       role: "Director of Email Operations",
-      company: "Acme Financial",
+      company: "a financial services firm",
       quote: "Cut our pre-launch QA time by 65% -- InboxInspector caught a DKIM misalignment that would have triggered Gmail's bulk folder. Now it is mandatory in our release checklist."
     },
     {
